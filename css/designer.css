@@ -1,0 +1,2311 @@
+ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fieldset, input {
+  margin: 0;
+  padding: 0;
+}
+
+/* HTML ELEMENTS */
+
+body {
+  background-color: #4C5D6F;
+}
+#MainWraperHome {
+  margin: auto;
+  width: 100%;
+  position: relative;
+  background-color: #0c253d;
+}
+
+/* COMMON CLASSES */
+
+.break {
+  clear: both;
+}
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+  outline: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: #FFFFFF
+}
+img {
+  border: 0
+}
+
+/* HEADER */
+
+#header {
+  height: 780px;
+}
+#headerInner {
+  width: 1024px;
+  margin: auto;
+  position: relative;
+}
+.headerimg {
+  background-position: center top;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 780px;
+  position: absolute;
+}
+
+/* NAVIGATION */
+
+#nav-outerInner {
+  position: relative;
+  background-image: url("../images/headerbg.png");
+  width: 197px;
+  float: right
+}
+#navigation {
+  width: 200px;
+  float: right;
+}
+
+/* SEARCH */
+
+#search {
+  background-color: #051733;
+  float: right;
+  width: 220px;
+  padding: 10px;
+}
+#searchtxt {
+  padding: 3px;
+  width: 150px;
+}
+#searchbtn {
+  border: 1px solid #eee !important;
+  background-color: #CD2B3A;
+  color: #eee;
+  padding: 3px;
+  margin-left: 5px;
+}
+
+/* MENU */
+
+#menu {
+  float: left;
+  width: 200px;
+  font-family: 'NeutraTextBook';
+}
+#menu ul {
+  list-style: none;
+  float: left;
+  width: 182px;
+}
+#menu ul li {
+  display: list-item;
+  font-size: 14px;
+  margin: 0px;
+  padding: 0;
+  text-align: right;
+  width: 182px;
+  text-transform: uppercase
+}
+#menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  width: 182px;
+  background: url(../images/menu_bg.png);
+  background-repeat: repeat;
+  float: left;
+  padding: 10px 0 0 0;
+  margin-bottom: 2px;
+  text-align: right
+}
+#menu ul li a:hover {
+  text-decoration: none;
+  background: url(../images/menu_bg_ro.png);
+  background-repeat: repeat;
+  color: #B4DDF5
+}
+#menu ul li a.selected {
+  text-decoration: none;
+  background: url(../images/menu_bg_ro.png);
+  background-repeat: repeat;
+  color: #B4DDF5
+}
+#menu ul li ul {
+  color: #0c253d;
+  text-align: right;
+  font-family: 'NeutraTextDemi';
+  width: 200px
+}
+#menu ul li ul li {
+  background: none;
+  color: #0c253d;
+}
+#menu ul li ul li a {
+  background: none;
+  color: #0c253d;
+  text-decoration: none;
+  text-align: right
+}
+#menu ul li ul li a:hover {
+  background: url(../images/menu_bg.png);
+  background-repeat: repeat;
+  color: #0c253d;
+  text-decoration: none;
+  color: #fff
+}
+
+/* HEADER TEXT */
+
+#headertxt {
+  width: 987px;
+  margin: 0;
+  clear: both;
+  position: relative;
+  top: 0px;
+  background-color: #132b41;
+  height: 24px
+}
+.pictured {
+  font-family: 'NeutraTextLight';
+  color: #f4f4f4;
+  font-size: 12px;
+  padding: 4px 16px;
+  text-transform: uppercase;
+  float: left;
+  display: block;
+}
+
+/* CONTROLS */
+
+.btn {
+  height: 23px;
+  width: 23px;
+  float: left;
+  cursor: pointer;
+}
+#back {
+  background-image: url("../images/btn_back.png");
+}
+#next {
+  background-image: url("../images/btn_next.png");
+}
+#control {
+  background-image: url("../images/btn_pause.png");
+}
+
+/* HEADER HAVIGATION */
+
+#headernav-outer {
+  position: absolute;
+  top: 781px;
+  margin: 0 auto;
+  width: 985px;
+}
+#headernav {
+  right: 0px;
+  position: absolute;
+  z-index: 10
+}
+
+/* CONTENT */
+
+.content {
+  color: #575757;
+  width: 1024px;
+  margin: 0 auto 0px auto;
+  padding-top: 0px
+}
+.content2 {
+  color: #575757;
+  width: 1024px;
+  margin: 0 auto 0px auto;
+  padding-top: 0px
+}
+.TitleBlock2 {
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #495c6e;
+  width: 964px;
+  padding: 0px 30px 0 30px;
+}
+.TitleL2 {
+  float: left;
+  color: #63B5E6;
+  font-size: 24px;
+  font-family: 'NeutraTextDemi';
+  padding-top: 0px;
+  text-transform: uppercase
+}
+.TitleL2 span {
+  color: #FFFFFF
+}
+.TitleBlock {
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #495c6e;
+  width: 964px;
+  padding: 30px 30px 0 30px;
+}
+.TitleL {
+  float: left;
+  color: #63B5E6;
+  font-size: 24px;
+  font-family: 'NeutraTextDemi';
+  padding-top: 10px;
+  text-transform: uppercase
+}
+.TitleL span {
+  color: #FFFFFF
+}
+.TitleR {
+  float: right;
+  color: #0c253d;
+  font-size: 14px;
+  font-family: 'NeutraTextDemi';
+  padding: 5px 8px;
+  background: #455361;
+  font-weight: bold;
+  margin: 15px 365px 0 0;
+  text-transform: uppercase
+}
+.LeftFloat {
+  float: left
+}
+.RightFloat {
+  float: right
+}
+.Clear {
+  clear: both
+}
+#firstline {
+  color: #EDEDED;
+  display: block;
+  float: left;
+  font-family: 'NeutraTextLight';
+  font-size: 12px;
+  padding: 4px 13px 7px;
+}
+.FixSlider {
+  float: left;
+  width: 309px;
+  height: 177px;
+}
+#Footer {
+  margin: auto;
+  background: #939393;
+  height: 73px;
+  padding: 10px 0 5px 0;
+  width: 1024px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.TopTilte {
+  float: left;
+  padding: 14px 0 27px 0px;
+  text-align: center;
+  width: 100%;
+}
+.LogoInner {
+  float: left;
+  position: absolute
+}
+.LoginBlock {
+  background: #0c253d;
+  font-family: 'NeutraTextLight';
+  color: #f4f4f4;
+  font-size: 9px;
+  margin: 0px 0 0 0px;
+  padding: 4px 7px 5px 7px;
+  float: right;
+  position: relative;
+  z-index: 9999;
+}
+.LoginBlock a {
+  padding: 0 4px;
+  text-decoration: none;
+  color: #FFFFFF
+}
+.LoginBlock a:hover {
+  padding: 0 4px;
+  text-decoration: underline;
+  color: #FFFFFF
+}
+.LoginBlock a.active {
+  padding: 0 4px;
+  text-decoration: none;
+  color: #53B8FF
+}
+.LoginBlockInner {
+  float: left;
+  min-width: 105px;
+  background: #0c253d;
+  font-family: 'NeutraTextLight';
+  color: #f4f4f4;
+  font-size: 9px;
+  margin: 278px 0 0 -1px;
+  padding: 4px 7px 5px 7px;
+  position: relative;
+  z-index: 9999;
+}
+.LoginBlockInner a {
+  padding: 0 4px;
+  text-decoration: none;
+  color: #FFFFFF
+}
+.LoginBlockInner a:hover {
+  padding: 0 4px;
+  text-decoration: underline;
+  color: #FFFFFF
+}
+.LoginBlockInner a.active {
+  padding: 0 4px;
+  text-decoration: none;
+  color: #53B8FF
+}
+.SocialNetwork {
+  float: right;
+  clear: both;
+  padding: 0px 26px 0 0
+}
+.BottomDetail {
+  width: 964px;
+  margin: auto;
+  padding-top: 15px;
+  clear: both
+}
+.BottomDetail2 {
+  width: 1024px;
+  margin: auto;
+  clear: both;
+  padding: 10px 0 0 0
+}
+.BottomDetail p {
+  float: left;
+  padding: 15px 0 0 40px;
+  width: 330px;
+  font-size: 14px;
+  font-family: 'NeutraTextDemi';
+  color: #FFFFFF;
+  line-height: 20px
+}
+.BottomDetail p.Txt {
+  float: left;
+  padding: 15px 0 0 40px;
+  width: 400px;
+  font-size: 14px;
+  font-family: 'NeutraTextLight';
+  color: #ccc
+}
+.BottomDetail p.Txt2 {
+  float: left;
+  padding: 15px 0 0 40px;
+  width: 243px;
+  font-size: 11px
+}
+.BottomDetail p.Txt3 {
+  float: left;
+  padding: 15px 0 0 40px;
+  width: 380px;
+  font-size: 11px;
+  font-family: 'NeutraTextLight';
+  line-height: 15px;
+  color: #ccc
+}
+.BottomDetail p span {
+  font-size: 13px;
+  font-weight: bold
+}
+.BottomDetail p a {
+  font-size: 13px;
+  font-weight: bold
+}
+.BottomDetail p img {
+  float: left;
+  padding: 0px 10px 0 00px;
+  border: 0
+}
+.PropertyList {
+  float: left;
+  width: 184px;
+  padding: 0 10px 20px 0
+}
+.PropertyList p {
+  clear: both;
+  font-size: 14px;
+  font-family: 'NeutraTextDemi';
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0 4px 0 0;
+  width: 180px
+}
+.PropertyList ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: 'NeutraTextLight';
+  line-height: 20px;
+  width: 180px;
+  float: left
+}
+.PropertyList ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: left
+}
+.PropertyList ul li a {
+  text-decoration: none;
+  color: #999999;
+  float: left;
+  width: 180px
+}
+.PropertyList ul li a:hover {
+  text-decoration: underline;
+  color: #999999
+}
+.Group3 {
+  float: left;
+  width: 184px;
+}
+.BottomLinks {
+  width: 1025px;
+  margin: auto;
+  padding: 100px 0 10px 0;
+  clear: both;
+  font-size: 13px;
+  font-family: 'NeutraTextDemi';
+  color: #999999;
+  text-align: center;
+}
+.BottomLinks a {
+  text-decoration: none;
+  color: #999999;
+  padding: 0 1px
+}
+.BottomLinks a:hover {
+  text-decoration: none;
+  color: #ffffff
+}
+.BottomLinks a.Selected {
+  text-decoration: none;
+  color: #ffffff
+}
+.FooterTxt1 {
+  float: left;
+  text-align: center;
+  width: 100%;
+  color: #234463;
+  font-size: 11px;
+  font-weight: bold;
+  font-family: 'MyriadProSemiExtended';
+}
+.FooterTxt1 p.font {
+  color: #234463;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: 'MyriadProSemiExtended';
+  font-weight: normal;
+}
+.FooterTxt1 span {
+  padding: 0 14px;
+}
+.FooterTxt1 p {
+  font-size: 10px;
+}
+.FooterLogoL {
+  float: left;
+  padding: 10px 0 0 20px
+}
+.FooterLogoR {
+  float: right;
+  padding: 10px 20px 0 0;
+  width: 190px;
+}
+.FooterLogoR img {
+  float: left;
+  padding: 4px 5px 0 0
+}
+.FooterLogoR span {
+  width: 125px;
+  float: right;
+  color: #fff;
+  font-size: 10px;
+  padding-top: 3px;
+  line-height: 10px
+}
+.AppBlock {
+  float: left;
+  width: 100%;
+  padding: 35px 0 10px 0
+}
+.AppTxt {
+  float: left;
+  padding: 30px 0 0 12px;
+  color: #1f588d;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: 'NeutraTextLight';
+  width: 59px;
+}
+.AppTxt a {
+  text-decoration: none;
+  color: #1f588d
+}
+.AppTxt a:hover {
+  text-decoration: none;
+  color: #fff
+}
+.AppTxt2 {
+  float: left;
+  padding: 0px 0 0 12px;
+  color: #999;
+  font-size: 12px;
+  font-family: 'NeutraTextDemi';
+  width: 780px;
+  line-height: 17px
+}
+.AppTxt3 {
+  float: left;
+  padding: 20px 0 0 0px;
+  color: #999;
+  font-size: 12px;
+  font-family: 'NeutraTextDemi';
+  width: 680px;
+  line-height: 17px
+}
+.CopyTxt {
+  float: left;
+  text-align: center;
+  color: #234463;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 20px 0 0 105px
+}
+.AvatarR {
+  float: left;
+  padding-left: 50px;
+  width: 680px
+}
+.LeftFloat span {
+  padding: 10px 0 0 30px;
+  font-family: 'NeutraTextLight';
+  text-transform: uppercase;
+  color: #FFFFFF
+}
+.BlockL {
+  float: left;
+  width: 300px;
+  color: #fff;
+  font-size: 13px;
+  font-family: 'NeutraTextDemi';
+  border-bottom: 1px solid #495c6e;
+  padding: 0 0px 20px 30px;
+}
+.BlockL2 {
+  float: left;
+  width: 335px;
+  color: #fff;
+  font-size: 13px;
+  font-family: 'NeutraTextDemi';
+  border-bottom: 1px solid #495c6e;
+  padding: 0 0px 20px 0px;
+}
+.BlockL3 {
+  float: left;
+  width: 300px;
+  color: #fff;
+  font-size: 13px;
+  font-family: 'NeutraTextDemi';
+  padding: 0 0px 20px 30px;
+}
+.BlockL p {
+  clear: both;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 0 0 10px 0
+}
+.SearchTitle {
+  float: left;
+  padding: 3px 7px 0 0;
+}
+.FilterBox {
+  float: left;
+  padding-top: 13px;
+  clear: both
+}
+.LinkL {
+  float: left;
+  font-family: 'NeutraTextLight';
+  color: #999999;
+  text-transform: uppercase;
+  padding-top: 32px;
+  line-height: 20px;
+  font-size: 12px;
+  clear: both
+}
+.LinkL a {
+  text-decoration: none;
+  color: #999999;
+}
+.LinkL a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.BlockR {
+  float: right;
+  width: 650px;
+  margin-right: 35px
+}
+.SortBg {
+  float: left;
+  padding: 4px 10px;
+  width: 630px;
+  background: #131d27;
+  margin-bottom: 10px;
+}
+.SortTitle {
+  float: left;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-family: 'NeutraTextLight';
+  padding: 3px 15px 0 0;
+}
+.PagingBlock {
+  float: right;
+  font-family: 'NeutraTextLight';
+  color: #999999;
+  font-size: 12px;
+  padding-top: 4px
+}
+.PagingBlock a {
+  padding: 5px 1px 0 1px;
+}
+.PagingBlock a span {
+  padding: 0px 1px;
+  color: #54b8ff
+}
+.PropertyBlock {
+  float: left;
+  background: #FFFFFF;
+  width: 650px;
+  margin-bottom: 7px;
+  font-size: 12px;
+  font-family: 'NeutraTextDemi';
+}
+.PropertyDetail {
+  float: left;
+  background: none;
+  width: 650px;
+  margin-bottom: 17px;
+  font-size: 12px;
+  font-family: 'NeutraTextDemi';
+  border-bottom: 1px solid #000000
+}
+.CheckBok {
+  float: left;
+  padding: 4px 8px;
+}
+.DecBlock {
+  float: left;
+  width: 300px;
+  padding-top: 10px;
+}
+.DecBlock h1 {
+  width: 180px;
+  margin: auto;
+  font-family: 'NeutraTextLight';
+  color: #3D5F93;
+  text-transform: uppercase;
+  font-size: 15px;
+  text-align: center;
+  padding: 0
+}
+.DecBlock h1 a {
+  text-decoration: none;
+  color: #3D5F93;
+}
+.DecBlock h1 a:hover {
+  text-decoration: none;
+  color: #000;
+}
+.PropertyDetailBlock {
+  margin: auto;
+  width: 300px;
+  border-bottom: 1px solid #7f7f7f;
+  padding: 17px 0 10px 0;
+  display: block;
+  text-transform: uppercase
+}
+.Box1 {
+  display: inline-block;
+  text-align: center;
+  border-right: 1px solid #d5d5d5;
+  width: 82px;
+  padding: 0 2px
+}
+.Box1 span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+}
+.Box2 {
+  display: inline-block;
+  text-align: center;
+  border-right: 1px solid #d5d5d5;
+  width: 62px;
+  padding: 0 2px
+}
+.Box2 span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+}
+.Box3 {
+  display: inline-block;
+  text-align: center;
+  width: 62px;
+  padding: 0 2px
+}
+.Box3 span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+}
+.BottomDetails {
+  float: left;
+  padding-top: 14px;
+  width: 300px;
+  font-family: 'NeutraTextDemi';
+}
+.Phone {
+  float: left;
+  padding-right: 10px;
+  color: #01305c;
+  line-height: 14px;
+}
+.Phone span {
+  color: #666
+}
+.Phone b {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal
+}
+.Phone a {
+  text-decoration: none;
+  color: #01305c
+}
+.Phone a:hover {
+  text-decoration: none;
+  color: #000
+}
+.LightBoxIcn {
+  position: relative;
+  top: 38px;
+  right: 39px;
+  float: right;
+  z-index: 999
+}
+.GoogleMap {
+  float: left;
+  background: none;
+  width: 650px;
+  margin-bottom: 17px;
+  text-align: center
+}
+.DescriptionBlock {
+  float: left;
+  width: 640px;
+  background: #FFFFFF;
+  margin: 20px 0 15px 0;
+  font-family: 'MyriadProSemiExtended';
+  font-size: 11px;
+  width: 98%
+}
+.DMainL {
+  float: left;
+  width: 380px;
+  padding: 20px 0 0 28px;
+}
+.DBlockL {
+  float: left;
+  width: 181px;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding-bottom: 10px
+}
+.DBlockL span {
+  padding: 10px 0 0 3px
+}
+.DBlockL a {
+  text-decoration: none;
+  color: #6e6e6e
+}
+.SaddyImg {
+  float: left;
+  padding: 20px 15px 0 0;
+}
+.SaddyTitle {
+  float: left;
+  color: #8a9539;
+  font-size: 15px;
+  padding: 32px 30px 0 0;
+  border-bottom: 1px solid #CCCCCC
+}
+.SaddyPhone {
+  float: left;
+  font-family: 'MyriadProSemiExtended';
+  font-size: 11px;
+  padding: 5px 0 0 0;
+  line-height: 17px
+}
+.SaddyPhone a {
+  text-decoration: none;
+  color: #6e6e6e
+}
+.DMainR {
+  float: right;
+  width: 228px;
+}
+.FeatureBlock {
+  float: left;
+  width: 580px;
+  padding: 20px 0 0 34px;
+  font-family: 'MyriadProSemiExtended';
+}
+.FeatureBlock h1 {
+  float: left;
+  color: #8a9539;
+  font-size: 15px;
+  padding: 32px 0px 10px 50px;
+  font-weight: normal
+}
+.tdL {
+  color: #000;
+  font-size: 12px;
+}
+.tdR {
+  color: #666;
+  font-size: 12px;
+}
+.TxtBottom {
+  clear: both;
+  padding: 40px 0 20px 0;
+  text-align: center;
+  font-size: 10px;
+  color: #999999
+}
+.TopLTitle {
+  clear: both;
+  border-bottom: 1px solid #495c6e;
+  font-size: 12px;
+  font-family: 'NeutraTextDemi';
+  color: #B4DDF5;
+  font-size: 20px;
+  padding: 10px 0px 0px 30px;
+}
+
+/*Updated by Kapil on 18/06/12 and added float:left, increase left padding from 30px to 45px on search.phtml page*/
+
+.TopLTitle2 {
+  clear: both;
+  font-family: 'MyriadProSemiExtended';
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 0px 0px 45px;
+  text-align: center;
+  float: left
+}
+.DescL {
+  clear: both;
+  padding: 10px 0px 0px 30px;
+  font-family: 'NeutraTextDemi';
+  color: #fff;
+}
+.Txt15 {
+  font-size: 15px;
+  text-transform: uppercase;
+  display: block
+}
+.Txt13 {
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 18px 0 0 0;
+  display: block
+}
+.Txt12 {
+  font-size: 12px;
+  text-transform: capitalize;
+  padding: 18px 0 0 0;
+  font-family: 'NeutraTextLight';
+}
+.Myrid12 {
+  font-family: 'MyriadProSemiExtended';
+  font-size: 12px;
+  color: #999999;
+  padding-top: 25px;
+  width: 200px;
+  line-height: 20px;
+  padding-bottom: 30px
+}
+.DMainLB {
+  float: left;
+  width: 250px;
+  padding: 12px 0 0 0px;
+  font-family: 'MyriadProSemiExtended';
+  font-size: 11px;
+}
+.DMainLB {
+  float: left;
+  width: 186px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.DMainLB span {
+  padding: 5px 0 0 3px
+}
+.DMainLB a {
+  text-decoration: none;
+  color: #939598
+}
+.DMainLB a:hover {
+  text-decoration: none;
+  color: #939598
+}
+.Back {
+  display: block;
+  text-align: right;
+  width: 100%;
+  font-family: 'MyriadProSemiExtended';
+  font-size: 14px;
+  color: #999999;
+}
+.Back a {
+  text-decoration: none;
+  color: #999999;
+  padding-right: 18px;
+}
+.SearchBlockL {
+  float: left;
+  width: 280px;
+  border-right: 1px solid #CCCCCC
+}
+.SearchBlockR {
+  float: left;
+  width: 280px;
+  padding-left: 20px;
+}
+.Block1 {
+  float: left;
+  width: 280px;
+  padding-bottom: 10px;
+}
+.SearchForm {
+  font-family: 'MyriadProSemiExtended';
+  font-size: 13px;
+  color: #333333;
+  padding: 40px 0 0 40px
+}
+.Area1 {
+  background: url(../images/area_1.jpg);
+  background-repeat: no-repeat;
+  width: 201px;
+  height: 18px;
+  border: 0;
+  background-color: none;
+  font-family: 'MyriadProSemiExtended';
+  float: left
+}
+.Area2 {
+  background: url(../images/area_2.jpg);
+  background-repeat: no-repeat;
+  width: 185px;
+  height: 18px;
+  border: 0;
+  background-color: none;
+  font-family: 'MyriadProSemiExtended';
+  float: left
+}
+.Area3 {
+  background: url(../images/area_3.jpg);
+  background-repeat: no-repeat;
+  width: 137px;
+  height: 18px;
+  border: 0;
+  background-color: none;
+  font-family: 'MyriadProSemiExtended';
+  float: left
+}
+.Area4 {
+  background: url(../images/area_4.jpg);
+  background-repeat: no-repeat;
+  width: 251px;
+  height: 89px;
+  border: 0;
+  background-color: none;
+  font-family: 'MyriadProSemiExtended';
+  float: left;
+  padding: 0;
+  margin: 0
+}
+.SelectBox {
+  float: left;
+  padding: 0px 10px 0 0;
+}
+select {
+  font-family: 'MyriadProSemiExtended';
+  font-size: 12px;
+}
+.AreaTitle {
+  float: left;
+  padding: 3px 10px 0 0;
+  font-weight: bold
+}
+.GreenTxt {
+  font-size: 12px;
+  color: #63B5E6;
+  font-family: 'MyriadProSemiExtended';
+}
+.GreenTxt2 {
+  font-size: 13px;
+  color: #63B5E6;
+  font-family: 'MyriadProSemiExtended';
+  text-align: center;
+  text-transform: uppercase
+}
+.GreyTxt {
+  font-size: 12px;
+  color: #333;
+}
+.GreyTxt2 {
+  font-size: 12px;
+  color: #000;
+  font-family: 'MyriadProSemiExtended';
+  text-align: center;
+}
+.ListingWraper {
+  float: right;
+  background: #0c1824;
+  width: 970px;
+  padding: 16px 10px 10px 0px;
+  margin-top: 10px;
+}
+.ListingTitleL {
+  border-bottom: 1px solid #0c243c;
+  color: #55b7ff;
+  font-family: 'NeutraTextLight';
+  font-size: 15px;
+  text-transform: uppercase;
+  padding-right: 30px;
+  text-align: right
+}
+.WhiteBgBdr {
+  background: #FFFFFF;
+  border-right: none
+}
+.RedColor {
+  color: #FF0000;
+  font-family: 'MyriadProSemiExtended';
+  font-size: 12px;
+}
+.RedColor span {
+  font-size: 15px;
+}
+.RedColor a {
+  text-decoration: none;
+  ;
+  color: #FF0000
+}
+.TableBottomBg {
+  background: url(../images/table_bg.jpg);
+  background-repeat: repeat-x;
+}
+.LuxuryWraper {
+  float: right;
+  width: 970px;
+  padding: 16px 10px 10px 0px;
+  font-family: 'NeutraTextLight';
+  font-size: 12px
+}
+.LuxuryL {
+  float: left;
+  width: 500px;
+}
+.LuxuryInnerL {
+  float: left;
+  width: 210px;
+  border-right: 1px solid #000000
+}
+.LuxuryInnerR {
+  float: left;
+  width: 210px;
+  border-right: 1px solid #000000
+}
+.LuxuryInnerLTitle {
+  float: right;
+  text-align: right;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-family: 'NeutraTextDemi';
+  padding: 20px 40px 20px 0;
+  text-transform: uppercase
+}
+.LuxuryInnerLTitle2 {
+  float: left;
+  text-align: left;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-family: 'NeutraTextDemi';
+  padding: 20px 0px 20px 40px;
+  text-transform: uppercase
+}
+.LeftUL {
+  float: right;
+  width: 100%
+}
+.LeftUL ul {
+  list-style: none;
+  clear: both;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.LeftUL ul li {
+  list-style: none;
+  clear: right;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  text-align: right;
+  margin-bottom: 8px
+}
+.LeftUL ul li a {
+  text-decoration: none;
+  color: #ccc;
+  padding: 0px 40px 0px 12px
+}
+.LeftUL ul li a:hover {
+  text-decoration: none;
+  background: #63B5E6;
+  color: #000
+}
+.LeftUL ul li a.Selected {
+  text-decoration: none;
+  background: #63B5E6;
+  color: #000
+}
+.LuxuryRightCategory {
+  float: right;
+  padding: 0 20px 0 0
+}
+.CategoryTitle {
+  clear: both;
+  text-align: right;
+  font-family: 'NeutraTextLight';
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  line-height: 16px;
+  padding-top: 5px;
+}
+.CategoryTitle a {
+  font-size: 12px;
+  color: #666;
+  font-family: 'MyriadProSemiExtended';
+  text-decoration: none;
+  line-height: 0px
+}
+.RightUL {
+  float: left;
+  width: 240px
+}
+.RightUL ul {
+  list-style: none;
+  clear: both;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.RightUL ul li {
+  list-style: none;
+  clear: right;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  text-align: left;
+  margin-bottom: 8px
+}
+.RightUL ul li a {
+  text-decoration: none;
+  color: #ccc;
+  padding: 0px 12px 0px 40px
+}
+.RightUL ul li a:hover {
+  text-decoration: none;
+  background: #63B5E6;
+  color: #000
+}
+.RightUL ul li a.Selected {
+  text-decoration: none;
+  background: #63B5E6;
+  color: #000
+}
+.CategoryDetailWrpaper {
+  width: 890px;
+  border: 1px solid #000000;
+  background: #183048;
+  margin: 40px auto 0px auto;
+  padding-bottom: 20px;
+}
+.CategoryDetailWrpaper2 {
+  width: 1024px;
+  margin: 0px auto 0px auto;
+  padding-bottom: 20px;
+}
+.CategoryDetailWrpaper3 {
+  width: 1022px;
+  border: 1px solid #000000;
+  background: #183048;
+  margin: 40px auto 0px auto;
+  padding-bottom: 20px;
+}
+.DetailTitle {
+  float: left;
+  width: 829px;
+  margin: 10px 0 0 32px;
+  font-family: 'NeutraTextLight';
+  font-size: 28px;
+  border-bottom: 2px solid #63B5E6;
+  color: #FFFFFF;
+  text-transform: uppercase
+}
+.DetailTitle2 {
+  float: left;
+  width: 955px;
+  margin: 10px 0 0 32px;
+  font-family: 'NeutraTextLight';
+  font-size: 28px;
+  border-bottom: 2px solid #63B5E6;
+  color: #FFFFFF;
+  text-transform: uppercase
+}
+.DetailTitle2 span a {
+  text-decoration: none;
+  color: #999999;
+  font-size: 13px;
+}
+.MainSection {
+  float: left;
+  padding: 50px 0 0 0;
+  width: 100%
+}
+.MainSection2 {
+  float: left;
+  padding: 20px 0 0 0;
+  width: 100%
+}
+.MainSection3 {
+  float: left;
+  padding: 10px 0 0 0;
+  width: 100%
+}
+.SectionLeft {
+  float: left;
+  width: 150px;
+}
+.SectionLeft2 {
+  float: left;
+  width: 280px;
+}
+.SectionLeftTitle {
+  clear: both;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: 'NeutraTextDemi';
+  padding: 0 0 0 30px
+}
+.SectionNav {
+  float: left;
+  width: 100%;
+  border-right: 1px solid #000000;
+  padding: 10px 0 30px 0px
+}
+.SectionNav ul {
+  list-style: none;
+  float: left;
+  width: 100%
+}
+.SectionNav ul li {
+  list-style: none;
+  clear: both;
+  font-family: 'NeutraTextLight';
+  font-size: 13px;
+  text-transform: uppercase;
+  margin-bottom: 4px
+}
+.SectionNav ul li a {
+  text-decoration: none;
+  color: #CCCCCC;
+  padding: 0 0 0 30px;
+}
+.SectionNav ul li a:hover {
+  text-decoration: none;
+  color: #CCCCCC;
+  background-image: url(../images/ro_img.jpg);
+  background-repeat: no-repeat;
+  background-position: 1px 4px
+}
+.SectionNav ul li a.Selected {
+  text-decoration: none;
+  color: #CCCCCC;
+  background-image: url(../images/ro_img.jpg);
+  background-repeat: no-repeat;
+  background-position: 1px 4px
+}
+.SectionRight {
+  float: left;
+  width: 690px;
+  padding: 0 0 0 35px;
+}
+.SectionRightTitle {
+  clear: both;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: 'NeutraTextDemi';
+  padding: 0
+}
+.SectionBlock1 {
+  float: left;
+  width: 690px;
+  padding: 14px 0 0px 0
+}
+.SectionBlock1 h1 {
+  font-size: 14px;
+  color: #63B5E6;
+  font-family: 'MyriadProSemiExtended';
+  float: left;
+  width: 100%;
+  font-weight: normal
+}
+.SectionBlock1 h1 a {
+  text-decoration: none;
+  color: #63B5E6;
+  width: 100%;
+  font-weight: normal
+}
+.SectionBlock1 h2 {
+  font-size: 12px;
+  color: #0d60af;
+  font-family: 'MyriadProSemiExtended';
+  float: left;
+  width: 100%;
+  font-weight: normal
+}
+.SectionBlock1 h2 a {
+  text-decoration: none;
+  color: #0d60af;
+  width: 100%;
+  font-weight: normal
+}
+.SectionBlock1 h3 {
+  font-size: 12px;
+  color: #999999;
+  font-family: 'MyriadProSemiExtended';
+  float: left;
+  width: 100%;
+  font-weight: normal
+}
+.SectionNav2 {
+  float: left;
+  width: 100%;
+  padding: 10px 0 30px 0px
+}
+.SectionNav2 ul {
+  list-style: none;
+  float: left;
+  width: 100%
+}
+.SectionNav2 ul li {
+  list-style: none;
+  clear: both;
+  font-family: 'NeutraTextLight';
+  font-size: 13px;
+  text-transform: uppercase;
+  margin-bottom: 4px
+}
+.SectionNav2 ul li a {
+  text-decoration: none;
+  color: #CCCCCC;
+  padding: 0 0 0 30px;
+}
+.SectionNav2 ul li a:hover {
+  text-decoration: none;
+  color: #CCCCCC;
+  background-image: url(../images/ro_img.jpg);
+  background-repeat: no-repeat;
+  background-position: 1px 4px
+}
+.SectionNav2 ul li a.Selected {
+  text-decoration: none;
+  color: #CCCCCC;
+  background-image: url(../images/ro_img.jpg);
+  background-repeat: no-repeat;
+  background-position: 1px 4px
+}
+.MapImg {
+  float: left;
+  padding-left: 15px;
+}
+.SectionRight h1 {
+  color: #FFFFFF;
+  width: 417px;
+  clear: both;
+  font-size: 14px;
+  font-family: 'NeutraTextDemi';
+  padding: 0;
+  text-transform: uppercase;
+  padding: 10px 0
+}
+.SectionRight h2 {
+  color: #999;
+  width: 417px;
+  clear: both;
+  font-size: 14px;
+  font-family: 'NeutraTextLight';
+  padding: 0;
+  font-weight: normal
+}
+.OverView {
+  clear: both;
+  padding-left: 30px;
+  width: 975px;
+  padding-top: 20px;
+}
+.OverView h1 {
+  color: #FFFFFF;
+  width: 580px;
+  float: left;
+  font-size: 14px;
+  font-family: 'NeutraTextDemi';
+  padding: 0;
+  text-transform: uppercase;
+  padding: 10px 0
+}
+.OverView h2 {
+  color: #999;
+  width: 580px;
+  float: left;
+  font-size: 14px;
+  font-family: 'NeutraTextLight';
+  padding: 0;
+  font-weight: normal
+}
+.OverView span {
+  float: right;
+  width: 376px
+}
+.AmentsWraper {
+  width: 100%;
+  clear: both;
+  padding: 20px 0 0 0
+}
+.AmentsBlock {
+  float: left;
+  width: 268px;
+  background: #002e62;
+  color: #fff;
+  font-family: 'MyriadProSemiExtended';
+  padding: 28px 0 28px 28px;
+}
+.AmentsBlock h1 {
+  clear: both;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: 'NeutraTextDemi';
+  padding-bottom: 10px;
+}
+.AmentsBlock h2 {
+  clear: both;
+  font-size: 11px;
+  font-family: 'MyriadProSemiExtended';
+  font-weight: normal;
+  color: #CCCCCC
+}
+.AmentsBlockIcons {
+  clear: both;
+  padding: 10px 0 0 0
+}
+.AmentsBlockIcons1 {
+  float: left;
+  font-size: 12px;
+  font-family: 'NeutraTextLight';
+  text-transform: uppercase;
+  padding: 6px 0 0 0
+}
+.AmentsBlockIcons1 img {
+  padding-right: 4px
+}
+.AmentsBlockIcons1 a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.TxtBottom2 {
+  clear: both;
+  padding: 15px 0 15px 0;
+  text-align: center;
+  font-size: 10px;
+  color: #5e7187;
+  font-family: 'MyriadProSemiExtended';
+  width: 1000px;
+}
+.NewsLeftWrpaper {
+  float: left;
+  width: 350px;
+  font-family: 'NeutraTextLight';
+  font-weight: normal
+}
+.NewsBlock {
+  float: left;
+  padding: 0 0 15px 30px;
+  width: 320px;
+}
+.NewsBlock h1 {
+  float: left;
+  width: 100%;
+  padding: 0 0 0px 0;
+  font-size: 28px;
+  color: #4eb1f5;
+  font-weight: normal
+}
+.NewsBlock h1 a {
+  text-decoration: none;
+  color: #4eb1f5
+}
+.NewsBlock h2 {
+  float: left;
+  width: 100%;
+  padding: 0 0 0px 0;
+  font-size: 18px;
+  color: #4eb1f5;
+  font-weight: normal
+}
+.NewsBlock h2 a {
+  text-decoration: none;
+  color: #4eb1f5
+}
+.NewsBlockSelect h2 {
+  float: left;
+  width: 100%;
+  padding: 0 0 0px 0;
+  font-size: 18px;
+  color: #63B5E6;
+  font-weight: normal
+}
+.NewsBlockSelect h2 a {
+  text-decoration: none;
+  color: #63B5E6
+}
+.NewsBlock h3 {
+  float: left;
+  width: 100%;
+  padding: 0 0 0px 0;
+  font-size: 14px;
+  color: #999;
+  font-weight: normal
+}
+.ResourcesBlock {
+  background: #183048;
+  border-right: 2px solid #000000;
+  margin-bottom: 15px;
+}
+.Light18 {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #53b8ff;
+  font-family: 'NeutraTextLight';
+}
+.Light12M {
+  font-size: 12px;
+  color: #b6b6b6;
+  font-family: 'MyriadProSemiExtended';
+  font-weight: normal;
+  line-height: 19px;
+}
+.ContactInfo {
+  float: right;
+  text-align: right;
+  width: 230px;
+  padding: 20px 30px 20px 0;
+  border-right: 2px solid #000000;
+  margin-top: 10px;
+}
+.TextArea {
+  background: #fff;
+  border: 0;
+  font-family: 'MyriadProSemiExtended';
+  width: 100%;
+  font-weight: normal;
+  font-size: 12px;
+  color: #333333;
+  height: 18px:
+}
+.ContactForm {
+  float: left;
+  width: 640px;
+  margin: 20px 0 15px 0;
+  font-family: 'MyriadProSemiExtended';
+  font-size: 11px;
+  width: 100%;
+}
+.AreaTitle2 {
+  float: left;
+  padding: 3px 8px 0 0;
+  font-weight: bold;
+  color: #999;
+  font-family: 'NeutraTextLight';
+}
+.ContactBlockL {
+  float: left;
+  width: 280px;
+}
+
+/*update for new home pages slider js*/
+
+.Logo {
+  top: 330px;
+  float: left;
+  position: absolute;
+  z-index: 10;
+}
+#nav-outer {
+  height: 666px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: url("../images/headerbg.png");
+  width: 200px;
+  float: right
+}
+#firstline_1 a {
+  color: #ededed;
+  font-size: 12px;
+  padding: 4px 13px 7px;
+  float: left;
+  display: block;
+  font-family: 'NeutraTextLight';
+}
+#secondline {
+  font-family: 'NeutraTextLight';
+  color: #ededed;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 4px 13px 5px;
+  float: left;
+  text-transform: uppercase
+}
+#thirdline {
+  font-family: 'NeutraTextLight';
+  color: #ededed;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 4px 13px 5px;
+  float: left;
+  text-transform: uppercase
+}
+#forthline {
+  font-family: 'NeutraTextLight';
+  color: #ededed;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 4px 13px 5px;
+  float: left;
+  text-transform: uppercase
+}
+#fifthline {
+  font-family: 'NeutraTextLight';
+  color: #ededed;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 4px 13px 5px;
+  float: left;
+  text-transform: uppercase
+}
+*update for new popup page*/ .pop_up_main {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: #7a8694;
+  z-index: 9990;
+}
+.pop_up {
+  width: 363px;
+  float: left;
+  margin-left: 581px;
+  background: #0c253d;
+  padding: 35px 0px 10px 0px;
+  min-height: 363px;
+}
+.Pop_up_TitleL {
+  float: left;
+  color: #63B5E6;
+  font-size: 24px;
+  font-family: 'NeutraTextDemi';
+  padding-top: 10px;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+.pop_up_tab {
+  width: 100%;
+  float: left;
+  padding: 10px 0px 0px 0px;
+}
+.pop_up_tab ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.pop_up_tab li {
+  color: #0c253d;
+  font-size: 12px;
+  font-family: 'NeutraTextDemi';
+  background: #455361;
+  padding: 6px 0;
+  width: 116px;
+  text-align: center;
+  float: left;
+  margin-right: 7px;
+  font-weight: bold;
+}
+.pop_up_tab li:hover {
+  color: #0c253d;
+  font-size: 12px;
+  font-family: 'NeutraTextDemi';
+  background: #939393;
+  font-weight: bold;
+}
+.pop_up_tab li.lastchiled {
+  margin-right: 0px;
+}
+.Pop_up_form_title {
+  float: left;
+  color: #53b8ff;
+  width: 90%;
+  font-size: 18px;
+  font-family: 'NeutraTextDemi';
+  padding: 30px 0px 0px 28px;
+  text-transform: uppercase;
+}
+.pop_account_bg {
+  float: left;
+  width: 91%;
+  padding: 10px 0px 0px 30px;
+}
+.account_box {
+  width: 100%;
+  float: left;
+  padding: 0px 0px 10px 0px;
+}
+.account_text {
+  color: #fff;
+  width: 118px;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-family: "Myriad Pro";
+  float: left;
+}
+.account_text sup {
+  color: #53b8ff;
+}
+.account_filed {
+  width: 196px;
+  float: left;
+  background: url(../images/account_filed.png) no-repeat top left;
+  padding: 0px 8px 0px 7px;
+}
+.filed {
+  background: none;
+  border: none;
+  width: 200px;
+  font-size: 11px;
+  color: #999;
+}
+.button_Bg {
+  float: right;
+  width: auto;
+  padding: 20px 20px 0px 0px;
+}
+.button {
+  background: url(../images/input.png) no-repeat left top;
+  float: left;
+  padding: 0px 0px 0px 10px;
+}
+.button input[type="button"] {
+  background: url(../images/input.png) no-repeat right top;
+  float: left;
+  padding: 3px 10px 3px 0px;
+  color: #0c253d;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.required_fields {
+  width: 91%;
+  float: left;
+  font-size: 10px;
+  font-style: italic;
+  color: #53b8ff;
+  font-family: "Myriad Pro";
+  padding: 10px 0px 20px 30px;
+}
+.pop_text {
+  width: 85%;
+  float: left;
+  font-size: 10px;
+  text-align: center;
+  color: #fff;
+  font-family: "Myriad Pro";
+  padding: 0px 0px 15px 30px;
+  line-height: 13px;
+}
+.pop_name {
+  width: 85%;
+  float: left;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  font-family: "Myriad Pro";
+  padding: 0px 0px 15px 30px;
+  font-weight: bold;
+}
+
+/*******************************/
+
+.Pop_up_TitleLSign {
+  float: left;
+  color: #63B5E6;
+  width: 90%;
+  margin: 0 0 20px 0;
+  border-bottom: 1px #495c6e solid;
+  font-size: 24px;
+  font-family: 'NeutraTextDemi';
+  text-transform: uppercase;
+  padding: 10px 0 10px 28px;
+}
+.Pop_up_TitleLSign span {
+  color: #FFF;
+}
+.NewsletterNotice {
+  float: left;
+  padding: 50px 0 0 30px;
+  font: normal 10px "Myriad Pro";
+  color: #FFF;
+  width: 90%;
+}
+.NonePadding {
+  padding: 5px 0 0 28px;
+}
+.NoticeLogin {
+  float: left;
+  width: 90%;
+  padding: 0 0 0 28px;
+  margin: -12px 0 10px 0;
+  font: normal 11px "Myriad Pro";
+  color: #FFF;
+}
+.SavedPropListing {
+  float: left;
+  width: 97%;
+  padding: 20px 0 0 10px;
+  color: #b2b2b2;
+  font: normal 10px "Myriad Pro";
+  text-transform: uppercase;
+}
+.SavedPropListing a {
+  text-decoration: underline;
+  color: #b2b2b2;
+  font: normal 10px "Myriad Pro";
+  text-transform: uppercase;
+}
+.SavedPropListing a:hover {
+  text-decoration: none;
+  color: #FFF;
+}
+.PagingBottom {
+  font: normal 12px "Myriad Pro";
+  color: #FFF;
+  text-transform: uppercase;
+}
+.PagingBottom a {
+  text-decoration: none;
+  font: normal 12px "Myriad Pro";
+  color: #FFF;
+}
+.PagingBottom a.next, a.prev {
+  text-decoration: underline;
+  font: normal 12px "Myriad Pro";
+  color: #53b8ff;
+  text-transform: uppercase;
+}
+.PagingBottom a.active {
+  text-decoration: underline;
+  font: bold 12px "Myriad Pro";
+  color: #53b8ff;
+  text-transform: uppercase;
+}
+.PagingBottom a:hover {
+  text-decoration: underline;
+  color: #53b8ff;
+}
+
+/*************compare listing updated css ********/
+
+.WhiteBgBdr {
+  background: #FFFFFF;
+}
+.ListingTitleL {
+  border-bottom: 1px solid #0c243c;
+  color: #55b7ff;
+  font-family: 'NeutraTextLight';
+  font-size: 15px;
+  text-transform: uppercase;
+  padding-right: 15px;
+  text-align: right;
+}
+
+/*******************compare listing new css***********/
+
+.TableRightBorder {
+  border-right: 1px #000 solid;
+}
+
+/* saf3+, chrome1+ */
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {}
+
+/**************************new Three popup Css *****************************/
+
+.Pop_up_TitleLSign {
+  float: left;
+  color: #63B5E6;
+  width: 92%;
+  margin: 0 0 20px 0;
+  border-bottom: 1px #495c6e solid;
+  font-size: 24px;
+  font-family: 'NeutraTextDemi';
+  text-transform: uppercase;
+  padding: 10px 0 10px 28px;
+}
+.account_filed_right {
+  width: 213px;
+  float: left;
+  height: 89px;
+  background: url(../images/textarea-bg.png) no-repeat top left;
+  padding: 0;
+}
+.area {
+  background: none;
+  border: none;
+  width: 203px;
+  height: 79px;
+  font-size: 11px;
+  color: #999;
+  padding: 5px;
+}
+.pop_text {
+  width: 85%;
+  float: left;
+  font-size: 10px;
+  text-align: center;
+  color: #fff;
+  font-family: "Myriad Pro";
+  padding: 0px 0px 15px 30px;
+  line-height: 13px;
+}
+.pop_name {
+  width: 85%;
+  float: left;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  font-family: "Myriad Pro";
+  padding: 0px 0px 15px 30px;
+  font-weight: bold;
+}
+.ErrorPop {
+  float: left;
+  width: 90%;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  -khtml-border-radius: 6px;
+  background: #fccac1;
+  border: 1px #eb5439 solid;
+  padding: 5px;
+  margin: 10px 11px;
+  position: relative;
+}
+.SuccessPop {
+  float: left;
+  width: 90%;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  -khtml-border-radius: 6px;
+  background: #effeb9;
+  border: 1px #98c700 solid;
+  padding: 5px;
+  margin: 10px 11px;
+  position: relative;
+}
+.icon {
+  float: left;
+  margin: 0 10px 0 10px;
+}
+.Message {
+  float: left;
+  width: 83%;
+  margin: 5px 0;
+  font: normal 12px Arial, Helvetica, sans-serif;
+  color: #000;
+  text-align: justify;
+  line-height: 20px;
+}
+.Message span {
+  font: bold 14px Arial, Helvetica, sans-serif;
+  color: #565656;
+  text-transform: uppercase;
+}
+.DownArrow {
+  left: 54px;
+  bottom: -14px;
+  position: absolute;
+}
+.CutPopup {
+  float: left;
+  height: 460px;
+  width: 100%;
+}
+.PropertyBlockNoRecord {
+  float: left;
+  background: #FFFFFF;
+  width: 650px;
+  margin-bottom: 7px;
+  font-size: 12px;
+  font-family: 'NeutraTextDemi';
+  min-height: 200px;
+}
+.PropertyBlockNoRecord p {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 71px 24px 23px 151px;
+}
+
+/*Added on 29/06/12 for condos properdetail page
+*
+*/
+
+table tr.rowPointer {
+  cursor: pointer;
+}
+table tr.rowPointer:hover {
+  background-color: #CCCCCC
+}
+table tr.rowBackground {
+  background-color: grey;
+  color: #fff
+}
+
+/***************************New Refine box scroll*************/
+
+.scroll {
+  float: left;
+  padding: 0;
+  margin: 0 0 0 30px;
+}
+
+/* Added on 11 July 2012
+ * Class added for unit listing on property details page
+ */
+
+.PropertyUnitBlock {
+  background: none repeat scroll 0 0 transparent;
+  float: left;
+  font-family: 'NeutraTextDemi';
+  font-size: 12px;
+  margin-bottom: 17px;
+  width: 650px;
+}
+.unitList {
+  color: #777777;
+  font: 12px/1.4 "helvetica neue", arial, sans-serif;
+  margin-top: 17px;
+  width: 644px;
+}
+.DescriptionBlockSearchMls {
+  float: left;
+  width: 640px;
+  background: #FFFFFF;
+  margin: 20px 0 15px 0;
+  font-family: 'MyriadProSemiExtended';
+  font-size: 11px;
+  width: 100%;
+  height: 485px
+}
+
+/*********************************New Css define for Saddy Black Book****************/
+
+.LuxuryRightTxt {
+  float: right;
+  padding: 20px 20px 20px 0;
+  font-family: 'NeutraTextLight';
+  text-align: center;
+  color: #55b8fd;
+  font-size: 22px;
+  width: 400px;
+  border-bottom: 1px solid #0c3768;
+  border-top: 1px solid #0c3768;
+  margin: 85px 0 0 0
+}
+.comparetd1 {
+  height: 26px;
+}
+.comparetd11 {
+  height: 29px;
+}
+.comparetd2 {
+  height: 36px;
+}
+.comparetd3 {
+  height: 60px
+}
+.comparetd4 {
+  height: 120px
+}
+.comparetd5 {
+  height: 32px
+}
+.comparetd6 {
+  height: 29px
+}
+.comparetd7 {
+  height: 40px
+}
+.comparetd8 {
+  height: 62px
+}
+.comparetd9 {
+  height: 129px
+}
+.Comparetable1 {
+  width: 117px
+}
+.Comparetable2 {
+  width: 184px
+}
+
+/**********Updated css ********/
+
+#MainWraper {
+  margin: auto;
+  width: 100%;
+  position: relative;
+  background: #4c5d6f;
+}
+
+/**************New css for inner page 2012-08-09************/
+
+.MiddleContent {
+  margin: 0 auto;
+  width: 1024px;
+  background: #0C253D;
+  box-shadow: -1px 1px 40px #000;
+  -moz-box-shadow: -1px 1px 40px #000;
+  -webkit-box-shadow: -1px 1px 40px #000;
+}
+.newsPaging {
+  background: none repeat scroll 0 0 #131D27;
+  float: left;
+  margin-left: 25px;
+  height: 25px;
+  min-width: 99px;
+  padding-left: 4px;
+  padding-right: 5px;
+}
+.S_table {
+  clear: both;
+  display: block;
+  width: 100%;
+}
+.Box11 {
+  display: inline-block;
+  text-align: center;
+  border-right: 1px solid #d5d5d5;
+  width: 145px;
+  padding: 0 2px
+}
+.Box11 span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+}
+.aDesc {
+  text-decoration: none;
+  color: #000000
+}
+.aDesc:hover {
+  text-decoration: underline;
+  color: #000000
+}
+.Box22 {
+  display: inline-block;
+  text-align: center;
+  width: 135px;
+  padding: 0 2px
+}
+.Box22 span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+}
+.BottomDetailsfhomes {
+  float: left;
+  padding-top: 25px;
+  width: 300px;
+  font-family: 'NeutraTextDemi';
+}
+.BottomDetailsDesc {
+  float: left;
+  padding-top: 20px;
+  padding-left: 30px;
+  width: 300px;
+  font-family: 'NeutraTextDemi';
+}
+
+/*******************************New Css for property detail page **************************/
+
+.map_dimanish {
+  width: 100%;
+  float: left;
+  padding: 22px 0px 20px 15px;
+}
+.map_dimanish ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.map_dimanish li {
+  float: left;
+  width: 126px;
+  padding: 0;
+  color: #414042;
+  font-size: 12px;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  line-height: 18px;
+}
