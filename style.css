@@ -102,8 +102,8 @@ Version: 0.0.1
     input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="number"]:focus, input[type="tel"]:focus, input[type="range"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="time"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="color"]:focus, textarea:focus {
       border-color: #66afe9;
       outline: 0;
-      -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .25), 0 0 20px rgba(102, 175, 233, .75);
-      box-shadow: inset 0 1px 1px rgba(0, 0, 0, .25), 0 0 20px rgba(102, 175, 233, .75);
+      /*-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .25), 0 0 20px rgba(102, 175, 233, .75);*/
+      /*box-shadow: inset 0 1px 1px rgba(0, 0, 0, .25), 0 0 20px rgba(102, 175, 233, .75);*/
     }
     img.so-widget-image {
       margin-left: auto;
@@ -114,6 +114,40 @@ Version: 0.0.1
     @media (max-width: 767px) {
       .hidden-xs {
         display: none !important;
+      }
+      #masthead {
+        text-align: center;
+        padding: 0% 5%;
+      }
+      .icon-bar {
+        margin: 5px;
+        background-color: #4eb1f5;
+        display: block;
+        width: 22px;
+        height: 2px;
+        border-radius: 1px;
+      }
+      #site-navigation button {
+        box-shadow: none;
+        background: #173046;
+      }
+      .main-navigation li {
+        float: none;
+        position: relative;
+      }
+      .main-navigation.toggled ul li {
+        padding: 10px;
+        /*border-radius: 3px;*/
+        /*background: rgba(78, 177, 245, 0.25);*/
+        border-bottom: 1px solid #63b5e6;
+        ;
+        margin: 10px 0px;
+      }
+      ul.sub-menu {
+        display: none !important;
+      }
+      p.site-title {
+        font-size: 3rem;
       }
     }
     @media (min-width: 768px) and (max-width: 991px) {
@@ -132,6 +166,9 @@ Version: 0.0.1
       }
     }
     @media screen and (min-width: 1200px) and (min-width: 56.875em) {
+      p.site-title{
+        font-size: 1.5rem;
+      }
       div#sidebar-footer-one {
         float: left;
         width: 50%;
@@ -146,6 +183,10 @@ Version: 0.0.1
         width: 100%;
         float: left;
         height: 146px;
+      }
+      div.site-branding {
+        text-align: center;
+        padding: 10px;
       }
       div#primary.content-area {
         float: left;
