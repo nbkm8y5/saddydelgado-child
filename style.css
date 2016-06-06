@@ -109,8 +109,8 @@ Version: 0.0.1
       margin-left: auto;
       margin-right: auto;
     }
-    /*Some Bootstrap Components*/
 
+    /*MOBILE OR SMALL DEVICES*/
     @media (max-width: 767px) {
       .hidden-xs {
         display: none !important;
@@ -147,24 +147,111 @@ Version: 0.0.1
         display: none !important;
       }
       p.site-title {
-        font-size: 3rem;
+        font-size: 2rem;
       }
     }
+
+    /*MEDIUM OR TABLETS*/
     @media (min-width: 768px) and (max-width: 991px) {
       .hidden-sm {
         display: none !important;
       }
+
+      #masthead {
+        text-align: center;
+        padding: 0% 5%;
+      }
+      .icon-bar {
+        margin: 5px;
+        background-color: #4eb1f5;
+        display: block;
+        width: 22px;
+        height: 2px;
+        border-radius: 1px;
+      }
+      #site-navigation button {
+        box-shadow: none;
+        background: #173046;
+      }
+      .main-navigation ul{
+        display: inline-block;
+      }
+      .main-navigation li {
+        /*float: none;*/
+        /*position: relative;*/
+        padding: 10px;
+        border-bottom: 1px solid #63b5e6;
+      }
+      .main-navigation.toggled ul li {
+        padding: 10px;
+        /*border-radius: 3px;*/
+        /*background: rgba(78, 177, 245, 0.25);*/
+        border-bottom: 1px solid #63b5e6;
+        margin: 10px 0px;
+      }
+      ul.sub-menu {
+        display: none !important;
+      }
+      p.site-title {
+        font-size: 2rem;
+      }
     }
+
+    /*MEDIUM OR TABLETS*/
     @media (min-width: 992px) and (max-width: 1199px) {
       .hidden-md {
         display: none !important;
       }
+
+      #masthead {
+        text-align: center;
+        padding: 0% 5%;
+      }
+      .icon-bar {
+        margin: 5px;
+        background-color: #4eb1f5;
+        display: block;
+        width: 22px;
+        height: 2px;
+        border-radius: 1px;
+      }
+      #site-navigation button {
+        box-shadow: none;
+        background: #173046;
+      }
+      .main-navigation ul{
+        display: inline-block;
+      }
+      .main-navigation li {
+        /*float: none;;
+        position: relative;*/
+        padding: 10px;
+        border-bottom: 1px solid #63b5e6;
+      }
+      .main-navigation.toggled ul li {
+        padding: 10px;
+        /*border-radius: 3px;*/
+        /*background: rgba(78, 177, 245, 0.25);*/
+        border-bottom: 1px solid #63b5e6;
+        ;
+        margin: 10px 0px;
+      }
+      ul.sub-menu {
+        display: none !important;
+      }
+      p.site-title {
+        font-size: 2rem;
+      }
     }
+
+    /*LARGE OR HIGH DEFINITION COMPUTER SCREENS*/
     @media (min-width: 1200px) {
       .hidden-lg {
         display: none !important;
       }
     }
+
+    /*LARGE OR HIGH DEFINITION COMPUTER SCREENS*/
     @media screen and (min-width: 1200px) and (min-width: 56.875em) {
       p.site-title{
         font-size: 1.5rem;
