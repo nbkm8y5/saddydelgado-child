@@ -24,7 +24,8 @@
 <div id="page" class="site"> <!--This will contain position: relative-->
 	<a class="skip-link screen-reader-text" href="#main"><?php esc_html_e( 'Skip to content', 'saddydelgado' ); ?></a>
 
-  <?php get_sidebar( 'header' ); ?>
+  <?php get_sidebar( 'header-one' ); ?>
+	<?php get_sidebar( 'header-two' ); ?>
 
 	<header id="masthead" class="site-header" role="banner"><!-- THis will contain position: absolute-->
 		<div class="site-branding">
