@@ -20,9 +20,6 @@ body {
 h2.widget-title, h3.widget-title {
     color: #63b5e6;
 }
-#content {
-    margin: 0% 5%;
-}
 a:visited {
     color: #ffffff;
 }
@@ -113,7 +110,6 @@ img.so-widget-image {
     margin-left: auto;
     margin-right: auto;
 }
-
 #post-5 .entry-header {
     display: none;
 }
@@ -161,6 +157,53 @@ img.so-widget-image {
     #text-2 .textwidget {
         padding-top: 20px;
         text-align: center;
+        padding-bottom: 0px;
+    }
+    #text-3 .textwidget, #search-6 .widget-title, #widget_contact_info-2 .widget-title {
+        text-align: center;
+        padding-bottom: 0px;
+    }
+    .textwidget {
+        padding-bottom: 20px;
+    }
+    h1.entry-title {
+        text-align: center;
+        padding-top: 10px;
+    }
+    .impress-showcase-property {
+        padding: 10px 0px;
+    }
+    .impress-price {
+        color: #4eb1f5;
+        font-size: 36px !important;
+    }
+    .impress-street {
+        font-size: 24px !important;
+    }
+    h2.entry-title {
+        font-size: 2em;
+        padding: 10px 0px;
+        text-align: center;
+    }
+    h2.entry-title a {
+        margin: 0%;
+        color: #4eb1f5;
+    }
+    .entry-header {
+        border-top: 1px solid;
+        margin: 0% 5%;
+    }
+    .entry-content {
+        margin: 0% 5%;
+    }
+    .entry-footer {
+        margin-top: 20px;
+    }
+    .entry-footer span {
+        display: block;
+    }
+    header {
+        margin-bottom: 20px;
     }
 }
 
@@ -345,6 +388,52 @@ img.so-widget-image {
         float: left;
         padding: 0 6px 6px;
     }
-
-    
+    #content {
+        margin: 0% 5%;
+    }
+    #text-3 .textwidget {
+        text-align: center;
+    }
+    #wpcom_social_media_icons_widget-2 {
+        text-align: center;
+    }
+    #search-6 .widget-title {
+        text-align: center;
+    }
+    .impress-showcase-property {
+        width: 33%;
+        padding: 20px;
+        float: left;
+    }
+    .impress-price {
+        color: #4eb1f5;
+        font-size: 36px !important;
+        text-align: center;
+    }
+    .impress-address {
+        font-size: 24px !important;
+        text-align: center !important;
+    }
+    .impress-beds-baths-sqft {
+        text-align: center !important;
+    }
+    .post {
+        text-align: center;
+    }
+    h2.entry-title {
+        font-size: 2.5rem;
+    }
+    h3.widget-title {
+        font-size: 1.5rem;
+    }
+    .entry-footer span {
+        display: block;
+    }
+    .entry-header {
+        border-top: 1px solid;
+        margin: 0% 5%;
+    }
+    .entry-footer {
+        margin-top: 20px;
+    }
 }
