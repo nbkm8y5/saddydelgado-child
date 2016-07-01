@@ -205,6 +205,15 @@ img.so-widget-image {
     header {
         margin-bottom: 20px;
     }
+    #main {
+        padding: 0% 5%;
+    }
+    #secondary{
+      padding: 0% 5%;
+    }
+    #secondary ul{
+      list-style-type: none;
+    }
 }
 
 /*MEDIUM OR TABLETS*/
@@ -435,5 +444,8 @@ img.so-widget-image {
     }
     .entry-footer {
         margin-top: 20px;
+    }
+    .idx-wrapper {
+        padding: 0% 5%;
     }
 }
