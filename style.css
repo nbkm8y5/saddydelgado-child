@@ -11,6 +11,7 @@ Version: 0.0.1
 @font-face {
     font-family: 'NeutraTextLight';
     src: url(fonts/neutra_text_light-webfont.woff);
+    /*src: url(http://www.saddydelgado.greasyhacks.com/fonts/neutra_text_light-webfont.woff);*/
 }
 body {
     background: #173046;
@@ -369,7 +370,7 @@ img.so-widget-image {
         width: 200px;
         float: right;
         z-index: 300;
-        background: rgba(78, 177, 245, 0.5);
+        background: #4eb1f5;
     }
     .main-navigation ul {
         float: left;

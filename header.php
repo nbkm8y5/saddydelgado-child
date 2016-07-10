@@ -21,6 +21,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+<div id="wptime-plugin-preloader"></div>
 <div id="page" class="site"> <!--This will contain position: relative-->
 	<a class="skip-link screen-reader-text" href="#main"><?php esc_html_e( 'Skip to content', 'saddydelgado' ); ?></a>
 
