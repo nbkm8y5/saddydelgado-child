@@ -1052,10 +1052,10 @@ img {
   float: left;
   padding: 0px 10px 0 0;
 }
-select {
-  font-family: 'MyriadProSemiExtended';
-  font-size: 12px;
-}
+/*select {*/
+  /*font-family: 'MyriadProSemiExtended';*/
+  /*font-size: 12px;*/
+/*}*/
 .AreaTitle {
   float: left;
   padding: 3px 10px 0 0;
