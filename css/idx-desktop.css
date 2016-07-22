@@ -1,0 +1,254 @@
+@font-face {
+    font-family: 'NeutraTextLight';
+    src: url(http://www.saddydelgado.greasyhacks.com/fonts/neutra_text_light-webfont.woff);
+}
+
+body {
+    font-family: 'NeutraTextLight', sans-serif !important;
+}
+
+.idx-wrapper {
+    font-family: 'NeutraTextLight', sans-serif !important;
+}
+
+/*SEARCH RESULTS*/
+#IDX-leadToolsBar {
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-box-shadow: none;
+    background-image: none;
+    border: none;
+    text-shadow: none;
+}
+
+.IDX-resultsField-price {
+    margin-top: 10px;
+}
+
+.IDX-resultsField-price .IDX-resultsText {
+    color: #4eb1f5;
+    font-size: 36px;
+}
+
+.IDX-resultsField-price {
+    text-align: center;
+}
+
+.IDX-resultsCell {
+    width: 33%;
+    float: left;
+    clear: none;
+    padding: 10px;
+}
+
+.IDX-column {
+    width: 100%;
+    text-align: left;
+    min-height: 93px;
+}
+
+.IDX-resultsDescription {
+    padding: 10px 0px;
+}
+
+.IDX-perPageForm {
+    text-align: center;
+}
+
+.IDX-column.IDX-column4 {
+    padding-bottom: 10px;
+    min-height: 103px;
+}
+
+.IDX-listingCountWrap {
+    text-align: center;
+    color: #b6b6b6;
+}
+
+.IDX-resultsDescription {
+    min-height: 100px;
+}
+
+span.IDX-resultsCount {
+    color: #ffffff;
+}
+
+.IDX-resultsAddress {
+    min-height: 40px;
+}
+
+.IDX-resultsPhotoImg {
+    max-height: 265px;
+    border-radius: 6px;
+}
+
+.IDX-resultsSeparatorText {
+    font-size: 32px;
+}
+
+div.IDX-column.IDX-column2 {
+    min-height: 124px;
+}
+
+.IDX-refineCityCountyZipListWrap {
+    width: 350px;
+    float: right;
+}
+
+.IDX-refinementSearchLeft, .IDX-refineLowPriceWrap, .IDX-refinementSearchRight, .IDX-refineHighPriceWrap,
+.IDX-refineDaysOnMarketWrap, .IDX-refineMinSqFtWrap, .IDX-refineSortingWrap, .IDX-refineSubmitWrap {
+    clear: both;
+    width: 100%;
+}
+
+.IDX-resultsCountMessage {
+    text-align: center;
+}
+
+.IDX-topLinks {
+    text-align: center;
+}
+
+.IDX-refinementSearchForm {
+    display: table;
+    margin: 0 auto;
+}
+
+.IDX-refinementSearchRight {
+    padding: 10px 0px;
+}
+
+.IDX-refinementSearchRight div input {
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.IDX-refinementSearchRight div input:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+#IDX-refineSorting {
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+#IDX-refineSorting {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+#IDX-detailsField-listingPrice, #IDX-detailsField-propStatus, #IDX-detailsBankRateTool, #IDX-detailsFeatured {
+    clear: both !important;
+    float: none !important;
+    width: 100% !important;
+    padding: 10px 0px;
+}
+
+#IDX-description {
+    clear: both !important;
+    float: none !important;
+    width: 60% !important;
+    padding: 10px 0px;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+#IDX-detailsBankRateTool {
+    text-align: center;
+}
+
+#IDX-detailsPrice {
+    color: #4EB1F5 !important;
+    font-size: 48px;
+}
+
+#IDX-detailsField-bedrooms > span.IDX-fieldData, #IDX-detailsField-fullBaths > span.IDX-fieldData,
+#IDX-detailsField-partialBaths > span.IDX-fieldData, #IDX-detailsField-sqFt > span.IDX-fieldData,
+#IDX-detailsField-listingID > span.IDX-fieldData {
+    color: #4EB1F5 !important;
+    font-size: 24px !important;
+}
+
+#IDX-detailsField-bedrooms, #IDX-detailsField-fullBaths,
+#IDX-detailsField-partialBaths, #IDX-detailsField-sqFt,
+#IDX-detailsField-listingID {
+    width: 19% !important;
+    border: 2px white solid;
+    border-radius: 50%;
+    height: 227.52px;
+    padding-top: 7.5%;
+    margin: 0px 0.5%
+}
+
+#IDX-detailsPriceLabel {
+    font-size: 24px;
+}
+
+#IDX-hotLinks {
+    text-align: center;
+}
+
+#IDX-photoListing {
+    width: 100%
+}
+
+#IDX-detailsAddress {
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+#IDX-detailsAddress > div.IDX-detailsAddressInfo > span {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+#IDX-detailsAddress > div.IDX-detailsAddressLocationInfo {
+    font-size: 18px;
+}
+
+#IDX-scheduleShowing, #IDX-detailsFeatured > a.IDX-detailsVirtualTourLink {
+    background: #4EB1F5;
+}
+
+#IDX-firstTime, #IDX-secondTime, #IDX-resetBtn, #IDX-submitBtn {
+    height: 34px;
+    border-radius: 4px;
+}
+
+#IDX-submitBtn {
+    width: 100%;
+    text-shadow: none;
+}

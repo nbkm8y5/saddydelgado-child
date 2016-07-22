@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'NeutraTextLight';
+    src: url(http://www.saddydelgado.greasyhacks.com/fonts/neutra_text_light-webfont.woff);
+}
+
+body {
+    font-family: 'NeutraTextLight', sans-serif !important;
+}
+
+.idx-wrapper {
+    font-family: 'NeutraTextLight', sans-serif !important;
+}
+
+.IDX-detailsAddressInfo, .IDX-detailsAddressLocationInfo {
+    font-size: 1rem;
+}
+
+.IDX-topLinks, .IDX-detailsAddressLocationInfo {
+    padding-bottom: 20px;
+}
+
+#IDX-detailsPrice, #IDX-detailsPropStatus {
+    color: #4eb1f5;
+    text-align: center;
+    font-size: 1.0rem;
+}
+
+.ui-block-a, .ui-block-b {
+    clear: both !important;
+    width: 100% !important;
+    text-align: center;
+}
+
+#IDX-mobilePhone .ui-btn-inner {
+    padding: 8px 25px !important;
+}
+
+#IDX-mobilePhone, #IDX-leadToolsBar, #IDX-moreInfo, #IDX-mortgageLink,
+#IDX-contactAgent {
+    border-radius: 4px;
+    height: 34px;
+}
+
+#IDX-mobilePhone .ui-btn-text {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#IDX-detailsBankRateTool {
+    clear: both;
+}
+
+#IDX-hotLinks {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+#IDX-detailsPhoto {
+    border-radius: 4px;
+}
+
+#IDX-walkscoreContainer {
+    display: none;
+}
+
+.ui-btn-up-e {
+    background: #4EB1F5;
+    border: 1px solid #428bca;
+    color: #ffffff;
+    text-shadow: none;
+}
+
+.ui-body-c {
+    text-shadow: none;
+}
+
+.IDX-input .ui-input-text .ui-body-c .ui-corner-all .ui-shadow-inset .ui-mini {
+    border-radius: 4px;
+    height: 34px;
+}
+
+#IDX-mobileLogo {
+    text-align: center;
+}
+
+.IDX-listingLogo {
+    display: none;
+}
+
+#IDX-moreinfoContactForm input, #IDX-moreinfoContactForm textarea, #IDX-moreinfoContactForm .IDX-select,
+#IDX-scheduleshowingContactForm input, #IDX-scheduleshowingContactForm textarea, #IDX-scheduleshowingContactForm .IDX-select {
+    height: 34px;
+    border-radius: 4px;
+}
+
+#IDX-scheduleshowingFormActions > div.ui-btn.ui-btn-up-b.ui-shadow.ui-btn-corner-all.ui-submit,
+#IDX-scheduleshowingFormActions > div.ui-btn.ui-btn-up-c.ui-shadow.ui-btn-corner-all.ui-submit,
+#IDX-secondTime-group > div > div, #IDX-firstTime-group > div > div,
+#IDX-listingHeader > a,
+#IDX-moreinfoFormActions > div.ui-btn.ui-btn-up-c.ui-shadow.ui-btn-corner-all.ui-submit,
+#IDX-moreinfoFormActions > div.ui-btn.ui-btn-up-b.ui-shadow.ui-btn-corner-all.ui-submit,
+#IDX-mortgagePriceField, #IDX-mortgageDownField, #IDX-mortgageDown > div.IDX-mortgageRightCell > div > div,
+#IDX-mortgageInterestField, #IDX-mortgageTermField, #IDX-mortgageAmortization > div > div > label,
+#IDX-mortgageForm > div:nth-child(7) > div,
+#IDX-leadVerifyAccountWrapper > div.IDX-backLink > a, #verificationCode,
+#IDX-verifyAccountForm > div:nth-child(3) > center > div.ui-btn.ui-btn-up-c.ui-shadow.ui-btn-corner-all.ui-submit,
+#IDX-verifyAccountForm > div:nth-child(3) > center > div:nth-child(2),
+#IDX-leadInfoWrapper > div:nth-child(1) > a, #IDX-firstName, #IDX-lastName, #IDX-email2, #IDX-address, #IDX-city,
+#IDX-stateProvince, #IDX-zipCode, #IDX-country, #IDX-phone, #IDX-updateInfoActions > div,
+#IDX-leadInfoWrapper > div:nth-child(5) > a,
+#IDX-leadSavedSearchWrapper > div.IDX-backLink > a,
+#IDX-leadSavedPropertyWrapper > div.IDX-backLink > a,
+#IDX-mortgageRatesTable > thead > tr:nth-child(2) > td:nth-child(2) > div > div,
+#IDX-mortgageRatesTable > thead > tr:nth-child(2) > td:nth-child(3) > div > div,
+#IDX-mortgageRatesLoanType > div > div, #IDX-message,
+#IDX-resetBtn, #IDX-contactFormActions > div.ui-btn.ui-btn-up-b.ui-shadow.ui-btn-corner-all.ui-submit {
+    border-radius: 4px !important;
+    height: 34px;
+}
+
+#IDX-listingHeader > a {
+    font-weight: normal;
+}
+
+#IDX-mortgageDown > div.IDX-mortgageRightCell > div > div > span > span.ui-icon.ui-icon-arrow-d.ui-icon-shadow,
+#IDX-mortgageAmortization > div > div > label > span > span.ui-icon.ui-icon-checkbox-off.ui-icon-shadow {
+    top: 43% !important;
+}
+
+#IDX-mortgagePriceField, #IDX-mortgageDownField, #IDX-mortgageInterestField, #IDX-mortgageTermField {
+    color: #63b5e6;
+}
