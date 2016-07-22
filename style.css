@@ -11,12 +11,15 @@ Version: 0.0.1
 @font-face {
     font-family: 'NeutraTextLight';
     src: url(fonts/neutra_text_light-webfont.woff);
-    /*src: url(http://www.saddydelgado.greasyhacks.com/fonts/neutra_text_light-webfont.woff);*/
 }
 
 body {
     background: #173046;
     color: #b6b6b6;
+    font-family: 'NeutraTextLight';
+}
+
+#IDX-main{
     font-family: 'NeutraTextLight';
 }
 
@@ -224,7 +227,7 @@ div.wpcf7-validation-errors {
 
     .IDX-showcasePrice {
         color: #4eb1f5;
-        font-size: 36px !important;
+        font-size: 24px !important;
     }
 
     .impress-street {
@@ -232,7 +235,7 @@ div.wpcf7-validation-errors {
     }
 
     .IDX-showcaseAddress {
-        font-size: 24px !important;
+        font-size: 11px !important;
     }
 
     .IDX-showcaseContainer {
@@ -308,6 +311,10 @@ div.wpcf7-validation-errors {
         margin: 20px 0px;
         height: 34px;
         width: 100% !important;
+    }
+
+    .IDX-qsSelectInput{
+        color: #000000;
     }
 
 }
@@ -803,7 +810,7 @@ div.wpcf7-validation-errors {
     }
 
     #sow-hero-2 > div > div > div.sow-slide-nav.sow-slide-nav-next,
-    #sow-hero-2 > div > div > div.sow-slide-nav.sow-slide-nav-prev{
+    #sow-hero-2 > div > div > div.sow-slide-nav.sow-slide-nav-prev {
         top: 75%;
     }
 
