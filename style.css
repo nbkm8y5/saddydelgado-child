@@ -8,19 +8,20 @@ Template: saddydelgado
 Version: 0.0.1
 */
 
-@font-face {
-    font-family: 'NeutraTextLight';
-    src: url(fonts/neutra_text_light-webfont.woff);
-}
+/*The Original font from saddydelgado.com*/
+
+/*@font-face {*/
+    /*font-family: 'NeutraTextLight';*/
+    /*src: url(fonts/neutra_text_light-webfont.woff);*/
+/*}*/
+
+ /*Styling*/
 
 body {
     background: #173046;
     color: #b6b6b6;
-    font-family: 'NeutraTextLight';
-}
-
-#IDX-main{
-    font-family: 'NeutraTextLight';
+    /*font-family: 'NeutraTextLight';*/
+    font-family: 'Josefin Sans', sans-serif !important;
 }
 
 h2.widget-title, h3.widget-title {
@@ -88,10 +89,7 @@ p#disclaimer {
 
 /*These will be the changes I request from IDX Broker*/
 
-h1.entry-title {
-    font-size: 2.5em;
-    color: #4eb1f5;
-}
+
 
 h2.entry-title {
     font-size: 2em;
@@ -108,7 +106,8 @@ input[type="search"] {
 
 input[type="email"], input[type="text"], input[type="submit"],
 input[type="url"], input[type="tel"], textarea, input[type="search"] {
-    font-family: 'NeutraTextLight';
+    /*font-family: 'NeutraTextLight';*/
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
     width: 100%;
     line-height: 1.42857143;
@@ -119,6 +118,27 @@ input[type="url"], input[type="tel"], textarea, input[type="search"] {
     /*margin-left: auto;
   margin-right: auto;
   display: block;*/
+}
+
+.btn-search {
+    /*font-family: 'NeutraTextLight';*/
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.42857143;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 34px;
+    padding: 6px 12px;
+    width: 10%;
+    float: right;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.search-field {
+    width: 90% !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
 }
 
 input[type="text"]:focus, input[type="email"]:focus,
@@ -149,11 +169,43 @@ div.wpcf7-validation-errors {
     border-radius: 4px;
 }
 
+.nav-previous a, .nav-next a {
+    color: #4EB1F5 !important;
+}
+
+
 /*MOBILE OR SMALL DEVICES*/
 
 @media (max-width: 767px) {
     .hidden-xs {
         display: none !important;
+    }
+
+    #sow-slider-3 > div > div {
+        height: 400px;
+    }
+
+    #sidebar-footer-two {
+        text-align: center;
+    }
+
+    .widget_wpcom_social_media_icons_widget .genericon {
+        padding-top: 10px;
+        font-size: 20px;
+    }
+
+    .search-field {
+        width: 89% !important;
+        border-top-right-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+    }
+
+    #colophon > div.menu-footer-menu-container {
+        display: none;
+    }
+
+    .btn-search {
+        width: 11%;
     }
 
     #masthead {
@@ -313,8 +365,41 @@ div.wpcf7-validation-errors {
         width: 100% !important;
     }
 
-    .IDX-qsSelectInput{
+    .IDX-qsSelectInput {
         color: #000000;
+    }
+
+    #panel-5-1-0-0 > form > label > input {
+        width: 90%;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    #panel-5-1-0-0 > form > button {
+        width: 10%;
+        float: right;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .sharedaddy{
+        text-align: center !important;
+    }
+
+    .siteorigin-widget-tinymce{
+        text-align: center;
+    }
+
+    .featured-item-image{
+        text-align: center;
+    }
+
+    .widget-title{
+        text-align: center;
+    }
+    .saddy_black_book, #menu-neighborhoods-2, #menu-points-of-interest-2{
+        list-style-type: none;
+        text-align: center;
     }
 
 }
@@ -326,9 +411,29 @@ div.wpcf7-validation-errors {
         display: none !important;
     }
 
+    #content{
+        padding: 0px 20px;
+    }
+
+    .entry-meta{
+        text-align: center;
+    }
+
+    .entry-title{
+        text-align: center;
+    }
+
     #masthead {
         text-align: center;
         padding: 0% 5%;
+    }
+
+    #colophon > div.menu-footer-menu-container {
+        display: none;
+    }
+
+    #wpgmza_map {
+        pointer-events: none;
     }
 
     .icon-bar {
@@ -353,7 +458,7 @@ div.wpcf7-validation-errors {
         /*float: none;*/
         /*position: relative;*/
         padding: 10px;
-        border-bottom: 1px solid #63b5e6;
+        /*border-bottom: 1px solid #63b5e6;*/
     }
 
     .main-navigation.toggled ul li {
@@ -371,13 +476,149 @@ div.wpcf7-validation-errors {
     p.site-title {
         font-size: 2rem;
     }
+
+    #panel-5-1-0-0 > form > label > input {
+        width: 90%;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .sharedaddy{
+        text-align: center;
+    }
+
+    .siteorigin-widget-tinymce {
+        padding: 0px 5%;
+        text-align: center;
+    }
+    .textwidget h3{
+        text-align: center;
+    }
+
+    .IDX-showcasePrice {
+        color: #4eb1f5;
+        font-size: 24px !important;
+    }
+
+    .IDX-showcaseContainer {
+        border: none !important;
+        padding: 0px;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+    }
+
+    #pg-5-0, #pg-5-1, #pg-5-2, #pg-5-3, #pg-5-4, #pg-5-5, #pg-5-6, #pg-5-7, #pg-5-8, #pg-5-9, #pg-5-10,
+    #pg-5-11, #pg-7-0, #pg-7-1, #pg-7-2, #pg-7-3, #pg-7-4, #pg-7-5, #pg-7-6, #pg-7-7, #pg-7-8,
+    #pg-7-9, #pg-42-0, #pg-42-1, #pg-42-2, #pg-55-0, #pg-55-1, #pg-55-2, #pg-52-0, #pg-52-1 {
+        padding: 0 5%;
+    }
+
+    #pg-9-0, #pg-9-1, #pg-9-2, #pg-23-0, #pg-23-1, #pg-23-2, #pg-28-0, #pg-28-1, #pg-28-2,
+    #pg-30-0, #pg-30-1, #pg-30-2, #pg-254-0, #pg-254-1, #pg-254-2, #pg-36-0, #pg-36-1, #pg-36-2 {
+        padding: 0 2.0%;
+    }
+
+    .panel-row-style ul {
+        list-style-type: none;
+    }
+
+    /*ALL THE SEARCH BARS*/
+    .IDX-quicksearchWrapper {
+        box-shadow: none !important;
+        -webkit-box-shadow: none !important;
+        padding: 10px;
+    }
+
+    .IDX-qsSelectInput {
+        height: 34px;
+        width: 100% !important;
+        /*padding: 6px 12px !important;*/
+        /*font-size: 14px;*/
+    }
+
+    .IDX-qsFieldWrap {
+        margin: 20px 0px;
+        height: 34px;
+        width: 100% !important;
+    }
+
+    #pgc-5-4-0 {
+        display: none;
+    }
+
+    #post-7 > header, #post-9 > header, #post-23 > header, #post-28 > header,
+    #post-30 > header, #post-254 > header, #post-36 > header, #post-42 > header,
+    #post-55 > header, #post-52 > header{
+        text-align: center;
+    }
+
+    #sow-hero-2 > div > div > ul > li > video {
+        width: 100%;
+        top: 0;
+        left: 0;
+        margin-top: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    #sidebar-footer-two{
+        text-align: center;
+    }
+
+    #sidebar-footer-two a{
+        font-size: 20px;
+    }
+
+    .featured-item-image{
+        text-align: center;
+    }
+
+    .widget-title{
+        text-align: center;
+    }
+    .saddy_black_book, #menu-neighborhoods-2, #menu-points-of-interest-2{
+        list-style-type: none;
+        text-align: center;
+    }
+
 }
 
 /*MEDIUM OR TABLETS*/
 
 @media (min-width: 992px) and (max-width: 1199px) {
+
+    .widget-title{
+        text-align: center;
+    }
+    .saddy_black_book, #menu-neighborhoods-2, #menu-points-of-interest-2{
+        list-style-type: none;
+        text-align: center;
+    }
     .hidden-md {
         display: none !important;
+    }
+
+    .entry-header{
+        text-align: center;
+    }
+
+    #content{
+        padding: 0px 5%;
+    }
+
+    .sharedaddy{
+        text-align: center;
+    }
+
+    #pgc-5-4-0{
+        display: none;
+    }
+
+    .siteorigin-widget-tinymce{
+        text-align: center;
+    }
+
+    #colophon > div.menu-footer-menu-container {
+        display: none;
     }
 
     #masthead {
@@ -407,7 +648,7 @@ div.wpcf7-validation-errors {
         /*float: none;;
         position: relative;*/
         padding: 10px;
-        border-bottom: 1px solid #63b5e6;
+        /*border-bottom: 1px solid #63b5e6;*/
     }
 
     .main-navigation.toggled ul li {
@@ -425,50 +666,162 @@ div.wpcf7-validation-errors {
     p.site-title {
         font-size: 2rem;
     }
+
+    .widget_wpcom_social_media_icons_widget .genericon {
+        font-size: 20px;
+    }
+
+    #wpgmza_map_widget-2 > h2 {
+        text-align: center;
+    }
+
+    #wpgmza_map {
+        pointer-events: none;
+    }
+
+    #colophon > div.menu-footer-menu-container ul li {
+        display: inline-block;
+        padding: 3px;
+        border-right: solid 2px #939393;
+        margin: 3px 0px;
+    }
+
+    #colophon > div.menu-footer-menu-container {
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #wpcom_social_media_icons_widget-2 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    #menu-item-714 {
+        border-right: none !important;
+    }
+
+    #text-3 > div {
+        text-align: center;
+    }
+
+    #panel-5-1-0-0 > form > label > input {
+        width: 90%;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    #panel-5-1-0-0 > form > button {
+        width: 10%;
+        float: right;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+
+    #pg-5-0, #pg-5-1, #pg-5-2, #pg-5-3, #pg-5-4, #pg-5-5, #pg-5-6, #pg-5-7, #pg-5-8, #pg-5-9, #pg-5-10,
+    #pg-5-11, #pg-7-0, #pg-7-1, #pg-7-2, #pg-7-3, #pg-7-4, #pg-7-5, #pg-7-6, #pg-7-7, #pg-7-8,
+    #pg-7-9, #pg-42-0, #pg-42-1, #pg-42-2, #pg-55-0, #pg-55-1, #pg-55-2, #pg-52-0, #pg-52-1 {
+        padding: 0 5%;
+    }
+
+    #pg-9-0, #pg-9-1, #pg-9-2, #pg-23-0, #pg-23-1, #pg-23-2, #pg-28-0, #pg-28-1, #pg-28-2,
+    #pg-30-0, #pg-30-1, #pg-30-2, #pg-254-0, #pg-254-1, #pg-254-2, #pg-36-0, #pg-36-1, #pg-36-2 {
+        padding: 0 2.0%;
+    }
+
+    .IDX-showcasePrice {
+        color: #4eb1f5;
+        font-size: 36px !important;
+    }
+
+    .IDX-showcaseContainer {
+        border: none !important;
+        padding: 0px;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+    }
+
+    .panel-row-style ul {
+        list-style-type: none;
+    }
+
+    /*ALL THE SEARCH BARS*/
+    .IDX-quicksearchWrapper {
+        box-shadow: none !important;
+        -webkit-box-shadow: none !important;
+        padding: 10px;
+    }
+
+    .IDX-qsSelectInput {
+        height: 34px;
+        width: 100% !important;
+        /*padding: 6px 12px !important;*/
+        /*font-size: 14px;*/
+    }
+
+    .IDX-qsFieldWrap {
+        margin: 20px 0px;
+        height: 34px;
+        width: 100% !important;
+    }
+
+    #post-7 > header, #post-9 > header, #post-23 > header, #post-28 > header,
+    #post-30 > header, #post-254 > header, #post-36 > header, #post-42 > header,
+    #post-55 > header, #post-52 > header{
+        text-align: center;
+    }
+
+    #sow-hero-2 > div > div > ul > li > video {
+        width: 100%;
+        top: 0;
+        left: 0;
+        margin-top: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    .featured-item-image{
+        text-align: center;
+    }
+
 }
 
 /*LARGE OR HIGH DEFINITION COMPUTER SCREENS*/
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
+
     .hidden-lg {
         display: none !important;
     }
-}
 
-/*LARGE OR HIGH DEFINITION COMPUTER SCREENS*/
-
-@media screen and (min-width: 1200px) and (min-width: 56.875em) {
     p.site-title {
         font-size: 1.5rem;
     }
 
     div#sidebar-footer-one {
         float: left;
-        width: 50%;
+        width: 100%;
         padding: 5%
     }
 
     div#sidebar-footer-two {
         float: left;
-        width: 50%;
-        padding: 5%;
+        width: 100%;
+        padding: 1% 0%;
+        height: 44px;
     }
 
     .site-info {
         width: 100%;
         float: left;
-        height: 146px;
+        font-size: 22px;
+    }
+
+    .widget_wpcom_social_media_icons_widget .genericon {
+        font-size: 20px;
     }
 
     div.site-branding {
         text-align: center;
         padding: 10px;
-    }
-
-    div#primary.content-area {
-        float: left;
-        /*margin-right: -100%;*/
-        /*width: 70%;*/
     }
 
     #secondary {
@@ -561,11 +914,9 @@ div.wpcf7-validation-errors {
         text-align: center !important;
     }
 
-    .post {
-        padding: 0% 15%;
-
-    }
-
+    /*.post {*/
+    /*padding: 0% 15%;*/
+    /*}*/
     .post img {
         margin-right: auto;
         margin-left: auto;
@@ -814,4 +1165,77 @@ div.wpcf7-validation-errors {
         top: 75%;
     }
 
+    #wpgmza_map_widget-2 > h2 {
+        text-align: center;
+    }
+
+    #wpgmza_map {
+        pointer-events: none;
+    }
+
+    #colophon > div.menu-footer-menu-container ul li {
+        display: inline-block;
+        padding: 3px;
+        border-right: solid 2px #939393;
+        margin: 3px 0px;
+    }
+
+    #menu-item-714 {
+        border-right: none !important;
+    }
+
+    #colophon > div.menu-footer-menu-container {
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #content {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1024px;
+
+    }
+
+    #sow-hero-2 > div > div > ul > li > video {
+        width: 100%;
+        top: 0;
+        left: 0;
+        margin-top: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    .so-widget-sow-editor .so-widget-sow-editor-base{
+        text-align: center;
+    }
+
+    .col-lg-6 {
+        width: 50%;
+        float: left;
+    }
+
+    h1.entry-title {
+        font-size: 2.5em;
+        color: #4eb1f5;
+        padding-top: 10px;
+    }
+
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+    overflow: auto;
+}
+
+.featured-areas{
+    padding: 0px 10px;
+}
+
+.featured-items{
+    padding: 10px 0px;
+}
+
+#menu-points-of-interest-2{
+    text-transform: uppercase;
+    list-style-type: none;
 }
