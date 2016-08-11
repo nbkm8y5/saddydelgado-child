@@ -1239,3 +1239,31 @@ div.wpcf7-validation-errors {
     text-transform: uppercase;
     list-style-type: none;
 }
+
+.genericon-facebook{
+    color: #3b5998;
+}
+
+.genericon-twitter{
+    color: #1da1f2;
+}
+
+.genericon-instagram{
+    color: #ffdc80;
+}
+
+.genericon-pinterest{
+    color: #bd081c;
+}
+
+.genericon-youtube{
+    color: #cd201f;
+}
+
+.genericon-vimeo{
+    color: #1ab7ea;
+}
+
+.genericon-googleplus{
+    color: #dd4b39;
+}
