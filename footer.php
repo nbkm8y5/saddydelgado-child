@@ -32,7 +32,7 @@
         <p id="disclaimer">This offering is subject to errors, omissions, prior sale, change of price, or withdrawal
             without notice. Not intended to solicit currently listed property.</p>
         <?php get_sidebar('footer-two'); ?>
-        <img id="footer_logo" src="http://localhost:8888/dev_sd/wp-content/uploads/2016/06/footer_logo.jpg">
+        <img id="footer_logo" src="http://2016.saddydelgado.com//wp-content/uploads/2016/06/footer_logo.jpg">
         <p><a target="_blank"
               href="<?php echo esc_url(__('https://wordpress.org/', 'saddydelgado')); ?>"><?php printf(esc_html__('Proudly powered by %s', 'saddydelgado'), 'WordPress'); ?></a>
             <span class="sep"> | </span>

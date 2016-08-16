@@ -7,12 +7,7 @@
  * @package saddydelgado
  */
 
-//$fa_name = get_field('fa_name');
-//$fa_city = get_field('fa_city');
-//$fa_description = get_field('fa_description');
-//$fa_image = get_field('fa_image');
-//$fa_idx = get_field('fa_idx');
-//$fa_contact = get_field('fa_contact');
+
 
 get_header(); ?>
 
@@ -44,12 +39,14 @@ get_header(); ?>
                     'order' => 'ASC'
                 ));
 
-                while ($featured_areas->have_posts()) : $featured_areas->the_post(); ?>
+                while ($featured_areas->have_posts()) : $featured_areas->the_post();
+
+                    $fa_image = get_field('fa_image');?>
 
                     <div class="row featured-items">
                         <div class="col-lg-6 featured-item-image"><a href="<?php the_field('fa_idx'); ?>"><img class="img-responsive"
-                                                                                           src="<?php the_field('fa_image'); ?>"
-                                                                                           alt="<?php the_field('fa_name'); ?>"/></a>
+                                                                                           src="<?php echo $fa_image['url']; ?>"
+                                                                                           alt="<?php echo $fa_image['alt']; ?>"/></a>
                         </div>
                         <div class="col-lg-6 featured-areas">
                             <div><a href="<?php the_field('fa_idx'); ?>"><h2><?php the_field('fa_name'); ?></h2></a>

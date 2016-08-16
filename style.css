@@ -402,6 +402,16 @@ div.wpcf7-validation-errors {
         text-align: center;
     }
 
+    #menu-coconut-grove-homes-2, #menu-coral-gables-homes-2, #menu-golden-beach-homes-2, #menu-key-biscayne-homes-2,
+    #menu-miami-homes-2, #menu-miami-beach-homes-2, #menu-pinecrest-homes-2, #menu-aventura-condos-2, #menu-brickell-condos-2,
+    #menu-bal-harbour-condos-2, #menu-coral-gables-condos-2, #menu-fisher-island-condos-2, #menu-key-biscayne-condos-2,
+    #menu-miami-condos-2, #menu-miami-beach-condos-2, #menu-sunny-isles-condos-2, #menu-coconut-grove-condos-2,
+    #menu-coral-gables-condos, #menu-fisher-island-condos, #menu-key-biscayne-condos, #menu-miami-beach-condos,
+    #menu-sunny-isles-condos
+    {
+        text-align: center;
+    }
+
 }
 
 /*MEDIUM OR TABLETS*/
@@ -580,11 +590,30 @@ div.wpcf7-validation-errors {
         text-align: center;
     }
 
+    #menu-coconut-grove-homes-2, #menu-coral-gables-homes-2, #menu-golden-beach-homes-2, #menu-key-biscayne-homes-2,
+    #menu-miami-homes-2, #menu-miami-beach-homes-2, #menu-pinecrest-homes-2, #menu-aventura-condos-2, #menu-brickell-condos-2,
+    #menu-bal-harbour-condos-2, #menu-coral-gables-condos-2, #menu-fisher-island-condos-2, #menu-key-biscayne-condos-2,
+    #menu-miami-condos-2, #menu-miami-beach-condos-2, #menu-sunny-isles-condos-2, #menu-coconut-grove-condos-2,
+    #menu-coral-gables-condos, #menu-fisher-island-condos, #menu-key-biscayne-condos, #menu-miami-beach-condos,
+    #menu-sunny-isles-condos
+    {
+        text-align: center;
+    }
 }
 
 /*MEDIUM OR TABLETS*/
 
 @media (min-width: 992px) and (max-width: 1199px) {
+
+    #menu-coconut-grove-homes-2, #menu-coral-gables-homes-2, #menu-golden-beach-homes-2, #menu-key-biscayne-homes-2,
+    #menu-miami-homes-2, #menu-miami-beach-homes-2, #menu-pinecrest-homes-2, #menu-aventura-condos-2, #menu-brickell-condos-2,
+    #menu-bal-harbour-condos-2, #menu-coral-gables-condos-2, #menu-fisher-island-condos-2, #menu-key-biscayne-condos-2,
+    #menu-miami-condos-2, #menu-miami-beach-condos-2, #menu-sunny-isles-condos-2, #menu-coconut-grove-condos-2,
+    #menu-coral-gables-condos, #menu-fisher-island-condos, #menu-key-biscayne-condos, #menu-miami-beach-condos,
+    #menu-sunny-isles-condos
+    {
+        text-align: center;
+    }
 
     .widget-title{
         text-align: center;
@@ -782,11 +811,28 @@ div.wpcf7-validation-errors {
         text-align: center;
     }
 
+    #panel-5-0-0-0 > form > label > input{
+
+    }
+
 }
 
 /*LARGE OR HIGH DEFINITION COMPUTER SCREENS*/
 
 @media screen and (min-width: 1200px) {
+
+    #menu-coconut-grove-homes-2, #menu-coral-gables-homes-2, #menu-golden-beach-homes-2, #menu-key-biscayne-homes-2,
+    #menu-miami-homes-2, #menu-miami-beach-homes-2, #menu-pinecrest-homes-2, #menu-aventura-condos-2, #menu-brickell-condos-2,
+    #menu-bal-harbour-condos-2, #menu-coral-gables-condos-2, #menu-fisher-island-condos-2, #menu-key-biscayne-condos-2,
+    #menu-miami-condos-2, #menu-miami-beach-condos-2, #menu-sunny-isles-condos-2, #menu-coconut-grove-condos-2,
+    #menu-coral-gables-condos, #menu-fisher-island-condos, #menu-key-biscayne-condos, #menu-miami-beach-condos,
+    #menu-sunny-isles-condos
+    {
+        text-align: center;
+        list-style-type: none;
+    }
+
+
 
     .hidden-lg {
         display: none !important;
@@ -1219,6 +1265,22 @@ div.wpcf7-validation-errors {
         padding-top: 10px;
     }
 
+    .col-lg-offset-4{
+        margin-left: 33.33333333%;
+    }
+
+    .col-lg-4{
+        width: 33.33333333%;
+    }
+
+    .col-lg-3 {
+        width: 25%;
+        float: left;
+    }
+
+    .menu ul li{
+        list-style-type: none;
+    }
 }
 
 .row {
@@ -1232,7 +1294,15 @@ div.wpcf7-validation-errors {
 }
 
 .featured-items{
-    padding: 10px 0px;
+    padding: 20px;
+}
+
+.poi-image{
+
+}
+
+.poi-area{
+    padding: 0px 10px;
 }
 
 #menu-points-of-interest-2{

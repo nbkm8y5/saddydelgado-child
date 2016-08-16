@@ -27,7 +27,7 @@
 
   <?php get_sidebar( 'header-one' ); ?>
 	<?php get_sidebar( 'header-two' ); ?>
-
+	<?php get_sidebar( 'header-three' ); ?>
 	<header id="masthead" class="site-header" role="banner"><!-- THis will contain position: absolute-->
 		<div class="site-branding">
 			<?php

@@ -7,12 +7,6 @@
  * @package saddydelgado
  */
 
-$poi_name = get_field('poi_name');
-$poi_city = get_field('poi_city');
-$poi_description = get_field('poi_description');
-$poi_image = get_field('poi_image');
-$poi_url = get_field('poi_url');
-
 get_header(); ?>
 
 <div id="primary" class="content-area">
@@ -51,14 +45,18 @@ get_header(); ?>
                 'order' => 'ASC'
             ));
 
-            while ($poi->have_posts()) : $poi->the_post(); ?>
+            while ($poi->have_posts()) : $poi->the_post();
+
+                $poi_image = get_field('poi_image');
+
+                ?>
 
                 <div class="row featured-items">
-                    <div class="col-lg-6"><a href="<?php the_field('poi_url'); ?>"><img class="img-responsive"
-                                                                                        src="<?php the_field('poi_image'); ?>"
-                                                                                        alt="<?php the_field('poi_name'); ?>"/></a>
+                    <div class="col-lg-6 poi-image"><a href="<?php the_field('poi_url'); ?>"><img class="img-responsive"
+                                                                                        src="<?php echo $poi_image['url']; ?>"
+                                                                                        alt="<?php echo $poi_image['alt']; ?>"/></a>
                     </div>
-                    <div class="col-lg-6 featured-areas">
+                    <div class="col-lg-6 poi-area">
                         <div><a href="<?php the_field('poi_url'); ?>"><h2><?php the_field('poi_name'); ?></h2></a>
                             <h3><?php the_field('poi_city'); ?></h3></div>
 

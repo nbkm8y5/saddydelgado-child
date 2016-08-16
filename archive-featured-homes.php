@@ -40,26 +40,21 @@ get_header(); ?>
 
                 while ($featured_homes->have_posts()) : $featured_homes->the_post();
 
-//                    $fh_name = get_field('fh_name');
-//                    $fh_city = get_field('fh_city');
-//                    $fh_description = get_field('fh_description');
-//                    $fh_image = get_field('fh_image');
-//                    $fh_idx = get_field('fh_idx');
-//                    $fh_contact = get_field('fh_contact');
+                    $fh_image = get_field('fh_image');
 
                     ?>
 
                     <div class="row featured-items">
                         <div class="col-lg-6 featured-item-image"><a href="<?php the_field('fh_idx'); ?>"><img class="img-responsive"
-                                                                                           src="<?php the_field('fh_image'); ?>"
-                                                                                           alt="<?php the_field('fh_name'); ?>"/></a>
+                                                                                           src="<?php echo $fh_image['url']; ?>"
+                                                                                           alt="<?php echo $fh_image['alt']; ?>"/></a>
                         </div>
                         <div class="col-lg-6 featured-areas">
                             <div><a href="<?php the_field('fh_idx'); ?>"><h2><?php the_field('fh_name'); ?></h2></a>
                                 <h3><?php the_field('fh_city'); ?></h3></div>
 
                             <div><?php the_field('fh_description'); ?><br></div>
-                            <div><a href="<?php the_field('fh_contact'); ?>">Contact Saddy Today</a></div>
+                            <div><a href="<?php the_field('fh_contact'); ?>"><i class="fa fa-phone" aria-hidden="true"></i> Contact Saddy Today</a></div>
                         </div>
                     </div>
                     <!--                    /*-->

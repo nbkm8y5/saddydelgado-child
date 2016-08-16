@@ -7,13 +7,6 @@
  * @package saddydelgado
  */
 
-//$fh_name = get_field('fh_name');
-//$fh_city = get_field('fh_city');
-//$fh_description = get_field('fh_description');
-//$fh_image = get_field('fh_image');
-//$fh_idx = get_field('fh_idx');
-//$fh_contact = get_field('fh_contact');
-
 get_header(); ?>
 
     <div id="primary" class="content-area">
@@ -23,12 +16,16 @@ get_header(); ?>
             <?php
             while (have_posts()) : the_post();
 
-                get_template_part('template-parts/content', get_post_format());?>
+//                get_template_part('template-parts/content', get_post_format());
+
+                $fh_image = get_field('fh_image');
+                ?>
 
                 <div class="row featured-items">
+                    <h1><?php the_field('fh_name'); ?></h1>
                 <div class="col-lg-6 featured-item-image"><a href="<?php the_field('fh_idx'); ?>"><img class="img-responsive"
-                                                                                   src="<?php the_field('fh_image'); ?>"
-                                                                                   alt="<?php the_field('fh_name'); ?>"/></a>
+                                                                                   src="<?php echo $fh_image['url']; ?>"
+                                                                                   alt="<?php echo $fh_image['alt']; ?>"/></a>
                 </div>
                 <div class="col-lg-6 featured-areas">
                     <div><a href="<?php the_field('fh_idx'); ?>"><h2><?php the_field('fh_name'); ?></h2></a>
@@ -42,9 +39,9 @@ get_header(); ?>
 
                 <?php the_post_navigation();
                 // If comments are open or we have at least one comment, load up the comment template.
-                if (comments_open() || get_comments_number()) :
-                    comments_template();
-                endif;
+//                if (comments_open() || get_comments_number()) :
+//                    comments_template();
+//                endif;
 
             endwhile; // End of the loop.
             ?>

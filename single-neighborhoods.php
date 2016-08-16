@@ -7,12 +7,6 @@
  * @package saddydelgado
  */
 
-//$nh_name = get_field('nh_name');
-//$nh_city = get_field('nh_city');
-//$nh_description = get_field('nh_description');
-//$nh_image = get_field('nh_image');
-//$nh_idx = get_field('nh_idx');
-//$nh_contact = get_field('nh_contact');
 
 get_header(); ?>
 
@@ -23,12 +17,14 @@ get_header(); ?>
             <?php
             while (have_posts()) : the_post();
 
-                get_template_part('template-parts/content', get_post_format());?>
+                get_template_part('template-parts/content', get_post_format());
+
+                $nh_image = get_field('nh_image');?>
 
                 <div class="row featured-items">
                     <div class="col-lg-6 featured-item-image"><a href="<?php the_field('nh_idx'); ?>"><img class="img-responsive"
-                                                                                                           src="<?php the_field('nh_image'); ?>"
-                                                                                                           alt="<?php the_field('nh_name'); ?>"/></a>
+                                                                                                           src="<?php echo $nh_image['url']; ?>"
+                                                                                                           alt="<?php echo $nh_image['alt']; ?>"/></a>
                     </div>
                     <div class="col-lg-6 featured-areas">
                         <div><a href="<?php the_field('nh_idx'); ?>"><h2><?php the_field('nh_name'); ?></h2></a>

@@ -7,12 +7,8 @@
  * @package saddydelgado
  */
 
-//$fc_name = get_field('fc_name');
-//$fc_city = get_field('fc_city');
-//$fc_description = get_field('fc_description');
-//$fc_image = get_field('fc_image');
-//$fc_idx = get_field('fc_idx');
-//$fc_contact = get_field('fc_contact');
+
+
 
 get_header(); ?>
 
@@ -23,12 +19,14 @@ get_header(); ?>
             <?php
             while (have_posts()) : the_post();
 
-                get_template_part('template-parts/content', get_post_format());?>
+//                get_template_part('template-parts/content', get_post_format());
+                $fc_image = get_field('fc_image');?>
 
                 <div class="row featured-items">
+                    <h1><?php the_field('fc_name'); ?></h1>
                     <div class="col-lg-6 featured-item-image"><a href="<?php the_field('fc_idx'); ?>"><img class="img-responsive"
-                                                                                                           src="<?php the_field('fc_image'); ?>"
-                                                                                                           alt="<?php the_field('fc_name'); ?>"/></a>
+                                                                                                           src="<?php echo $fc_image['url']; ?>"
+                                                                                                           alt="<?php echo $fc_image['alt']; ?>"/></a>
                     </div>
                     <div class="col-lg-6 featured-areas">
                         <div><a href="<?php the_field('fc_idx'); ?>"><h2><?php the_field('fc_name'); ?></h2></a>
