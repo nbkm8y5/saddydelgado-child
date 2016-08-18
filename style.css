@@ -8,49 +8,64 @@ Template: saddydelgado
 Version: 0.0.1
 */
 
-@font-face {
-    font-family: 'NeutraTextLight';
-    src: url(fonts/neutra_text_light-webfont.woff);
-    /*src: url(http://www.saddydelgado.greasyhacks.com/fonts/neutra_text_light-webfont.woff);*/
-}
+/*The Original font from saddydelgado.com*/
+
+/*@font-face {*/
+    /*font-family: 'NeutraTextLight';*/
+    /*src: url(fonts/neutra_text_light-webfont.woff);*/
+/*}*/
+
+ /*Styling*/
+
 body {
     background: #173046;
     color: #b6b6b6;
-    font-family: 'NeutraTextLight';
+    /*font-family: 'NeutraTextLight';*/
+    font-family: 'Josefin Sans', sans-serif !important;
 }
+
 h2.widget-title, h3.widget-title {
     color: #63b5e6;
 }
+
 a:visited {
     color: #ffffff;
 }
+
 a:hover {
     text-decoration: none;
     color: #999;
 }
+
 footer {
     margin: 0% 5%;
 }
+
 #footer_logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
 }
+
 .site-info {
     background: #939393;
     padding: 10px 20px;
     color: #ffffff;
 }
+
 div.site-info a:hover {
     color: #ffffff;
 }
+
 div.site-info p {
     text-align: center;
 }
+
 p#disclaimer {
     font-size: 0.75rem;
 }
+
 .widget_wpcom_social_media_icons_widget ul li a {
     font-size: 1.7rem;
 }
@@ -62,35 +77,38 @@ p#disclaimer {
   margin: 16px;
 }*/
 
-
 /*These will be the changes I request from IDX Broker*/
 
 .idx-omnibar-input {
     height: 34px;
 }
+
 .idx-omnibar-form {
     padding: 5% 10%;
 }
 
 /*These will be the changes I request from IDX Broker*/
 
-h1.entry-title {
-    font-size: 2.5em;
-    color: #4eb1f5;
-}
+
+
 h2.entry-title {
     font-size: 2em;
 }
+
 h2.entry-title a {
     margin: 0% 10%;
     color: #4eb1f5;
 }
+
 input[type="search"] {
     width: 100%
 }
-input[type="email"], input[type="text"], input[type="submit"], input[type="url"], input[type="tel"], textarea, input[type="search"] {
-    font-family: 'NeutraTextLight';
-    font-size: 14px;
+
+input[type="email"], input[type="text"], input[type="submit"],
+input[type="url"], input[type="tel"], textarea, input[type="search"] {
+    /*font-family: 'NeutraTextLight';*/
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
     width: 100%;
     line-height: 1.42857143;
     margin-top: 20px;
@@ -101,19 +119,60 @@ input[type="email"], input[type="text"], input[type="submit"], input[type="url"]
   margin-right: auto;
   display: block;*/
 }
-input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="number"]:focus, input[type="tel"]:focus, input[type="range"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="time"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="color"]:focus, textarea:focus {
+
+.btn-search {
+    /*font-family: 'NeutraTextLight';*/
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.42857143;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 34px;
+    padding: 6px 12px;
+    width: 10%;
+    float: right;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.search-field {
+    width: 90% !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+input[type="text"]:focus, input[type="email"]:focus,
+input[type="url"]:focus, input[type="password"]:focus,
+input[type="search"]:focus, input[type="number"]:focus,
+input[type="tel"]:focus, input[type="range"]:focus,
+input[type="date"]:focus, input[type="month"]:focus,
+input[type="week"]:focus, input[type="time"]:focus,
+input[type="datetime"]:focus, input[type="datetime-local"]:focus,
+input[type="color"]:focus, textarea:focus {
     border-color: #66afe9;
     outline: 0;
-    /*-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .25), 0 0 20px rgba(102, 175, 233, .75);*/
-    /*box-shadow: inset 0 1px 1px rgba(0, 0, 0, .25), 0 0 20px rgba(102, 175, 233, .75);*/
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
 }
+
 img.so-widget-image {
     margin-left: auto;
     margin-right: auto;
 }
+
 #post-5 .entry-header {
     display: none;
 }
+
+div.wpcf7-validation-errors {
+    border: 5px solid #63b5e6;
+    border-radius: 4px;
+}
+
+.nav-previous a, .nav-next a {
+    color: #4EB1F5 !important;
+}
+
 
 /*MOBILE OR SMALL DEVICES*/
 
@@ -121,10 +180,39 @@ img.so-widget-image {
     .hidden-xs {
         display: none !important;
     }
+
+    #sow-slider-3 > div > div {
+        height: 400px;
+    }
+
+    #sidebar-footer-two {
+        text-align: center;
+    }
+
+    .widget_wpcom_social_media_icons_widget .genericon {
+        padding-top: 10px;
+        font-size: 20px;
+    }
+
+    .search-field {
+        width: 89% !important;
+        border-top-right-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+    }
+
+    #colophon > div.menu-footer-menu-container {
+        display: none;
+    }
+
+    .btn-search {
+        width: 11%;
+    }
+
     #masthead {
         text-align: center;
         padding: 0% 5%;
     }
+
     .icon-bar {
         margin: 5px;
         background-color: #4eb1f5;
@@ -133,88 +221,197 @@ img.so-widget-image {
         height: 2px;
         border-radius: 1px;
     }
+
     #site-navigation button {
         box-shadow: none;
         background: #173046;
     }
+
     .main-navigation li {
         float: none;
         position: relative;
     }
+
     .main-navigation.toggled ul li {
         padding: 10px;
         /*border-radius: 3px;*/
         /*background: rgba(78, 177, 245, 0.25);*/
-        border-bottom: 1px solid #63b5e6;
-        ;
+        border-bottom: 1px solid #63b5e6;;
         margin: 10px 0px;
     }
+
     ul.sub-menu {
         display: none !important;
     }
+
     p.site-title {
         font-size: 2rem;
     }
+
     #text-2 .textwidget {
         padding-top: 20px;
         text-align: center;
         padding-bottom: 0px;
     }
+
     #text-3 .textwidget, #search-6 .widget-title, #widget_contact_info-2 .widget-title {
         text-align: center;
         padding-bottom: 0px;
     }
+
     .textwidget {
         padding-bottom: 20px;
     }
+
     h1.entry-title {
         text-align: center;
         padding-top: 10px;
     }
+
     .impress-showcase-property {
         padding: 10px 0px;
     }
+
     .impress-price {
         color: #4eb1f5;
         font-size: 36px !important;
     }
+
+    .IDX-showcasePrice {
+        color: #4eb1f5;
+        font-size: 24px !important;
+    }
+
     .impress-street {
         font-size: 24px !important;
     }
+
+    .IDX-showcaseAddress {
+        font-size: 11px !important;
+    }
+
+    .IDX-showcaseContainer {
+        border: none !important;
+        padding: 0px;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+    }
+
     h2.entry-title {
         font-size: 2em;
         padding: 10px 0px;
         text-align: center;
     }
+
     h2.entry-title a {
         margin: 0%;
         color: #4eb1f5;
     }
+
     .entry-header {
         border-top: 1px solid;
         margin: 0% 5%;
     }
+
     .entry-content {
         margin: 0% 5%;
     }
+
     .entry-footer {
         margin-top: 20px;
     }
+
     .entry-footer span {
         display: block;
     }
+
     header {
         margin-bottom: 20px;
     }
+
     #main {
         padding: 0% 5%;
     }
-    #secondary{
-      padding: 0% 5%;
+
+    #secondary {
+        padding: 0% 5%;
     }
-    #secondary ul{
-      list-style-type: none;
+
+    #secondary ul {
+        list-style-type: none;
     }
+
+    .wpgmza_widget {
+        display: none;
+    }
+
+    /*ALL THE SEARCH BARS*/
+    .IDX-quicksearchWrapper {
+        box-shadow: none !important;
+        -webkit-box-shadow: none !important;
+        padding: 10px;
+    }
+
+    .IDX-qsSelectInput {
+        height: 34px;
+        width: 100% !important;
+        /*padding: 6px 12px !important;*/
+        /*font-size: 14px;*/
+    }
+
+    .IDX-qsFieldWrap {
+        margin: 20px 0px;
+        height: 34px;
+        width: 100% !important;
+    }
+
+    .IDX-qsSelectInput {
+        color: #000000;
+    }
+
+    #panel-5-1-0-0 > form > label > input {
+        width: 90%;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    #panel-5-1-0-0 > form > button {
+        width: 10%;
+        float: right;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .sharedaddy{
+        text-align: center !important;
+    }
+
+    .siteorigin-widget-tinymce{
+        text-align: center;
+    }
+
+    .featured-item-image{
+        text-align: center;
+    }
+
+    .widget-title{
+        text-align: center;
+    }
+    .saddy_black_book, #menu-neighborhoods-2, #menu-points-of-interest-2{
+        list-style-type: none;
+        text-align: center;
+    }
+
+    #menu-coconut-grove-homes-2, #menu-coral-gables-homes-2, #menu-golden-beach-homes-2, #menu-key-biscayne-homes-2,
+    #menu-miami-homes-2, #menu-miami-beach-homes-2, #menu-pinecrest-homes-2, #menu-aventura-condos-2, #menu-brickell-condos-2,
+    #menu-bal-harbour-condos-2, #menu-coral-gables-condos-2, #menu-fisher-island-condos-2, #menu-key-biscayne-condos-2,
+    #menu-miami-condos-2, #menu-miami-beach-condos-2, #menu-sunny-isles-condos-2, #menu-coconut-grove-condos-2,
+    #menu-coral-gables-condos, #menu-fisher-island-condos, #menu-key-biscayne-condos, #menu-miami-beach-condos,
+    #menu-sunny-isles-condos
+    {
+        text-align: center;
+    }
+
 }
 
 /*MEDIUM OR TABLETS*/
@@ -223,10 +420,32 @@ img.so-widget-image {
     .hidden-sm {
         display: none !important;
     }
+
+    #content{
+        padding: 0px 20px;
+    }
+
+    .entry-meta{
+        text-align: center;
+    }
+
+    .entry-title{
+        text-align: center;
+    }
+
     #masthead {
         text-align: center;
         padding: 0% 5%;
     }
+
+    #colophon > div.menu-footer-menu-container {
+        display: none;
+    }
+
+    #wpgmza_map {
+        pointer-events: none;
+    }
+
     .icon-bar {
         margin: 5px;
         background-color: #4eb1f5;
@@ -235,19 +454,23 @@ img.so-widget-image {
         height: 2px;
         border-radius: 1px;
     }
+
     #site-navigation button {
         box-shadow: none;
         background: #173046;
     }
+
     .main-navigation ul {
         display: inline-block;
     }
+
     .main-navigation li {
         /*float: none;*/
         /*position: relative;*/
         padding: 10px;
-        border-bottom: 1px solid #63b5e6;
+        /*border-bottom: 1px solid #63b5e6;*/
     }
+
     .main-navigation.toggled ul li {
         padding: 10px;
         /*border-radius: 3px;*/
@@ -255,24 +478,183 @@ img.so-widget-image {
         border-bottom: 1px solid #63b5e6;
         margin: 10px 0px;
     }
+
     ul.sub-menu {
         display: none !important;
     }
+
     p.site-title {
         font-size: 2rem;
+    }
+
+    #panel-5-1-0-0 > form > label > input {
+        width: 90%;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .sharedaddy{
+        text-align: center;
+    }
+
+    .siteorigin-widget-tinymce {
+        padding: 0px 5%;
+        text-align: center;
+    }
+    .textwidget h3{
+        text-align: center;
+    }
+
+    .IDX-showcasePrice {
+        color: #4eb1f5;
+        font-size: 24px !important;
+    }
+
+    .IDX-showcaseContainer {
+        border: none !important;
+        padding: 0px;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+    }
+
+    #pg-5-0, #pg-5-1, #pg-5-2, #pg-5-3, #pg-5-4, #pg-5-5, #pg-5-6, #pg-5-7, #pg-5-8, #pg-5-9, #pg-5-10,
+    #pg-5-11, #pg-7-0, #pg-7-1, #pg-7-2, #pg-7-3, #pg-7-4, #pg-7-5, #pg-7-6, #pg-7-7, #pg-7-8,
+    #pg-7-9, #pg-42-0, #pg-42-1, #pg-42-2, #pg-55-0, #pg-55-1, #pg-55-2, #pg-52-0, #pg-52-1 {
+        padding: 0 5%;
+    }
+
+    #pg-9-0, #pg-9-1, #pg-9-2, #pg-23-0, #pg-23-1, #pg-23-2, #pg-28-0, #pg-28-1, #pg-28-2,
+    #pg-30-0, #pg-30-1, #pg-30-2, #pg-254-0, #pg-254-1, #pg-254-2, #pg-36-0, #pg-36-1, #pg-36-2 {
+        padding: 0 2.0%;
+    }
+
+    .panel-row-style ul {
+        list-style-type: none;
+    }
+
+    /*ALL THE SEARCH BARS*/
+    .IDX-quicksearchWrapper {
+        box-shadow: none !important;
+        -webkit-box-shadow: none !important;
+        padding: 10px;
+    }
+
+    .IDX-qsSelectInput {
+        height: 34px;
+        width: 100% !important;
+        /*padding: 6px 12px !important;*/
+        /*font-size: 14px;*/
+    }
+
+    .IDX-qsFieldWrap {
+        margin: 20px 0px;
+        height: 34px;
+        width: 100% !important;
+    }
+
+    #pgc-5-4-0 {
+        display: none;
+    }
+
+    #post-7 > header, #post-9 > header, #post-23 > header, #post-28 > header,
+    #post-30 > header, #post-254 > header, #post-36 > header, #post-42 > header,
+    #post-55 > header, #post-52 > header{
+        text-align: center;
+    }
+
+    #sow-hero-2 > div > div > ul > li > video {
+        width: 100%;
+        top: 0;
+        left: 0;
+        margin-top: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    #sidebar-footer-two{
+        text-align: center;
+    }
+
+    #sidebar-footer-two a{
+        font-size: 20px;
+    }
+
+    .featured-item-image{
+        text-align: center;
+    }
+
+    .widget-title{
+        text-align: center;
+    }
+    .saddy_black_book, #menu-neighborhoods-2, #menu-points-of-interest-2{
+        list-style-type: none;
+        text-align: center;
+    }
+
+    #menu-coconut-grove-homes-2, #menu-coral-gables-homes-2, #menu-golden-beach-homes-2, #menu-key-biscayne-homes-2,
+    #menu-miami-homes-2, #menu-miami-beach-homes-2, #menu-pinecrest-homes-2, #menu-aventura-condos-2, #menu-brickell-condos-2,
+    #menu-bal-harbour-condos-2, #menu-coral-gables-condos-2, #menu-fisher-island-condos-2, #menu-key-biscayne-condos-2,
+    #menu-miami-condos-2, #menu-miami-beach-condos-2, #menu-sunny-isles-condos-2, #menu-coconut-grove-condos-2,
+    #menu-coral-gables-condos, #menu-fisher-island-condos, #menu-key-biscayne-condos, #menu-miami-beach-condos,
+    #menu-sunny-isles-condos
+    {
+        text-align: center;
     }
 }
 
 /*MEDIUM OR TABLETS*/
 
 @media (min-width: 992px) and (max-width: 1199px) {
+
+    #menu-coconut-grove-homes-2, #menu-coral-gables-homes-2, #menu-golden-beach-homes-2, #menu-key-biscayne-homes-2,
+    #menu-miami-homes-2, #menu-miami-beach-homes-2, #menu-pinecrest-homes-2, #menu-aventura-condos-2, #menu-brickell-condos-2,
+    #menu-bal-harbour-condos-2, #menu-coral-gables-condos-2, #menu-fisher-island-condos-2, #menu-key-biscayne-condos-2,
+    #menu-miami-condos-2, #menu-miami-beach-condos-2, #menu-sunny-isles-condos-2, #menu-coconut-grove-condos-2,
+    #menu-coral-gables-condos, #menu-fisher-island-condos, #menu-key-biscayne-condos, #menu-miami-beach-condos,
+    #menu-sunny-isles-condos
+    {
+        text-align: center;
+    }
+
+    .widget-title{
+        text-align: center;
+    }
+    .saddy_black_book, #menu-neighborhoods-2, #menu-points-of-interest-2{
+        list-style-type: none;
+        text-align: center;
+    }
     .hidden-md {
         display: none !important;
     }
+
+    .entry-header{
+        text-align: center;
+    }
+
+    #content{
+        padding: 0px 5%;
+    }
+
+    .sharedaddy{
+        text-align: center;
+    }
+
+    #pgc-5-4-0{
+        display: none;
+    }
+
+    .siteorigin-widget-tinymce{
+        text-align: center;
+    }
+
+    #colophon > div.menu-footer-menu-container {
+        display: none;
+    }
+
     #masthead {
         text-align: center;
         padding: 0% 5%;
     }
+
     .icon-bar {
         margin: 5px;
         background-color: #4eb1f5;
@@ -281,73 +663,213 @@ img.so-widget-image {
         height: 2px;
         border-radius: 1px;
     }
+
     #site-navigation button {
         box-shadow: none;
         background: #173046;
     }
+
     .main-navigation ul {
         display: inline-block;
     }
+
     .main-navigation li {
         /*float: none;;
         position: relative;*/
         padding: 10px;
-        border-bottom: 1px solid #63b5e6;
+        /*border-bottom: 1px solid #63b5e6;*/
     }
+
     .main-navigation.toggled ul li {
         padding: 10px;
         /*border-radius: 3px;*/
         /*background: rgba(78, 177, 245, 0.25);*/
-        border-bottom: 1px solid #63b5e6;
-        ;
+        border-bottom: 1px solid #63b5e6;;
         margin: 10px 0px;
     }
+
     ul.sub-menu {
         display: none !important;
     }
+
     p.site-title {
         font-size: 2rem;
     }
+
+    .widget_wpcom_social_media_icons_widget .genericon {
+        font-size: 20px;
+    }
+
+    #wpgmza_map_widget-2 > h2 {
+        text-align: center;
+    }
+
+    #wpgmza_map {
+        pointer-events: none;
+    }
+
+    #colophon > div.menu-footer-menu-container ul li {
+        display: inline-block;
+        padding: 3px;
+        border-right: solid 2px #939393;
+        margin: 3px 0px;
+    }
+
+    #colophon > div.menu-footer-menu-container {
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #wpcom_social_media_icons_widget-2 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    #menu-item-714 {
+        border-right: none !important;
+    }
+
+    #text-3 > div {
+        text-align: center;
+    }
+
+    #panel-5-1-0-0 > form > label > input {
+        width: 90%;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    #panel-5-1-0-0 > form > button {
+        width: 10%;
+        float: right;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+
+    #pg-5-0, #pg-5-1, #pg-5-2, #pg-5-3, #pg-5-4, #pg-5-5, #pg-5-6, #pg-5-7, #pg-5-8, #pg-5-9, #pg-5-10,
+    #pg-5-11, #pg-7-0, #pg-7-1, #pg-7-2, #pg-7-3, #pg-7-4, #pg-7-5, #pg-7-6, #pg-7-7, #pg-7-8,
+    #pg-7-9, #pg-42-0, #pg-42-1, #pg-42-2, #pg-55-0, #pg-55-1, #pg-55-2, #pg-52-0, #pg-52-1 {
+        padding: 0 5%;
+    }
+
+    #pg-9-0, #pg-9-1, #pg-9-2, #pg-23-0, #pg-23-1, #pg-23-2, #pg-28-0, #pg-28-1, #pg-28-2,
+    #pg-30-0, #pg-30-1, #pg-30-2, #pg-254-0, #pg-254-1, #pg-254-2, #pg-36-0, #pg-36-1, #pg-36-2 {
+        padding: 0 2.0%;
+    }
+
+    .IDX-showcasePrice {
+        color: #4eb1f5;
+        font-size: 36px !important;
+    }
+
+    .IDX-showcaseContainer {
+        border: none !important;
+        padding: 0px;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+    }
+
+    .panel-row-style ul {
+        list-style-type: none;
+    }
+
+    /*ALL THE SEARCH BARS*/
+    .IDX-quicksearchWrapper {
+        box-shadow: none !important;
+        -webkit-box-shadow: none !important;
+        padding: 10px;
+    }
+
+    .IDX-qsSelectInput {
+        height: 34px;
+        width: 100% !important;
+        /*padding: 6px 12px !important;*/
+        /*font-size: 14px;*/
+    }
+
+    .IDX-qsFieldWrap {
+        margin: 20px 0px;
+        height: 34px;
+        width: 100% !important;
+    }
+
+    #post-7 > header, #post-9 > header, #post-23 > header, #post-28 > header,
+    #post-30 > header, #post-254 > header, #post-36 > header, #post-42 > header,
+    #post-55 > header, #post-52 > header{
+        text-align: center;
+    }
+
+    #sow-hero-2 > div > div > ul > li > video {
+        width: 100%;
+        top: 0;
+        left: 0;
+        margin-top: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    .featured-item-image{
+        text-align: center;
+    }
+
+    #panel-5-0-0-0 > form > label > input{
+
+    }
+
 }
 
 /*LARGE OR HIGH DEFINITION COMPUTER SCREENS*/
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
+
+    #menu-coconut-grove-homes-2, #menu-coral-gables-homes-2, #menu-golden-beach-homes-2, #menu-key-biscayne-homes-2,
+    #menu-miami-homes-2, #menu-miami-beach-homes-2, #menu-pinecrest-homes-2, #menu-aventura-condos-2, #menu-brickell-condos-2,
+    #menu-bal-harbour-condos-2, #menu-coral-gables-condos-2, #menu-fisher-island-condos-2, #menu-key-biscayne-condos-2,
+    #menu-miami-condos-2, #menu-miami-beach-condos-2, #menu-sunny-isles-condos-2, #menu-coconut-grove-condos-2,
+    #menu-coral-gables-condos, #menu-fisher-island-condos, #menu-key-biscayne-condos, #menu-miami-beach-condos,
+    #menu-sunny-isles-condos
+    {
+        text-align: center;
+        list-style-type: none;
+    }
+
+
+
     .hidden-lg {
         display: none !important;
     }
-}
 
-/*LARGE OR HIGH DEFINITION COMPUTER SCREENS*/
-
-@media screen and (min-width: 1200px) and (min-width: 56.875em) {
     p.site-title {
         font-size: 1.5rem;
     }
+
     div#sidebar-footer-one {
         float: left;
-        width: 50%;
+        width: 100%;
         padding: 5%
     }
+
     div#sidebar-footer-two {
         float: left;
-        width: 50%;
-        padding: 5%;
+        width: 100%;
+        padding: 1% 0%;
+        height: 44px;
     }
+
     .site-info {
         width: 100%;
         float: left;
-        height: 146px;
+        font-size: 22px;
     }
+
+    .widget_wpcom_social_media_icons_widget .genericon {
+        font-size: 20px;
+    }
+
     div.site-branding {
         text-align: center;
         padding: 10px;
     }
-    div#primary.content-area {
-        float: left;
-        /*margin-right: -100%;*/
-        /*width: 70%;*/
-    }
+
     #secondary {
         float: left;
         padding-top: 10%;
@@ -355,15 +877,18 @@ img.so-widget-image {
         /*margin-left: 75%;*/
         /*width: 25%;*/
     }
+
     .widget_wpcom_social_media_icons_widget ul li a {
         font-size: 1.7rem;
     }
+
     #sidebar-header {
         position: relative;
     }
+
     #masthead {
         position: absolute;
-        height: 853px;
+        height: 720px;
         right: 0;
         top: 0;
         background: url("../images/headerbg.png");
@@ -372,12 +897,14 @@ img.so-widget-image {
         z-index: 300;
         background: #4eb1f5;
     }
+
     .main-navigation ul {
         float: left;
         position: absolute;
         width: 182px;
         display: inline-block;
     }
+
     .main-navigation li {
         display: list-item;
         font-size: 14px;
@@ -390,6 +917,7 @@ img.so-widget-image {
         zoom: 1;
         white-space: nowrap;
     }
+
     .main-navigation ul ul {
         visibility: hidden;
         position: absolute;
@@ -398,55 +926,418 @@ img.so-widget-image {
         float: left;
         padding: 0 6px 6px;
     }
-    #content {
-        margin: 0% 5%;
-    }
+
     #text-3 .textwidget {
         text-align: center;
     }
+
     #wpcom_social_media_icons_widget-2 {
         text-align: center;
     }
+
     #search-6 .widget-title {
         text-align: center;
     }
+
     .impress-showcase-property {
         width: 33%;
         padding: 20px;
         float: left;
     }
+
     .impress-price {
         color: #4eb1f5;
         font-size: 36px !important;
         text-align: center;
     }
+
     .impress-address {
         font-size: 24px !important;
         text-align: center !important;
     }
+
     .impress-beds-baths-sqft {
         text-align: center !important;
     }
-    .post {
+
+    /*.post {*/
+    /*padding: 0% 15%;*/
+    /*}*/
+    .post img {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+
+    h2.entry-title {
+        font-size: 2.0rem;
         text-align: center;
     }
-    h2.entry-title {
-        font-size: 2.5rem;
-    }
+
     h3.widget-title {
         font-size: 1.5rem;
+        /*text-align: center;*/
     }
+
+    .entry-meta {
+        text-align: center;
+    }
+
+    /*div.textwidget {*/
+    /*text-align: center;*/
+    /*}*/
+    div.entry-content h1 {
+        text-align: center;
+        padding: 20px;
+    }
+
+    div.entry-content h2 {
+        text-align: center;
+        padding: 20px;
+    }
+
+    /*div.entry-content p{*/
+    /*padding: 20px 50px;*/
+    /*}*/
     .entry-footer span {
         display: block;
     }
+
     .entry-header {
         border-top: 1px solid;
         margin: 0% 5%;
     }
+
     .entry-footer {
         margin-top: 20px;
     }
+
     .idx-wrapper {
         padding: 0% 5%;
     }
+
+    /*#content {*/
+    /*margin: 0% 5%;*/
+    /*}*/
+    .page-content, .entry-content, .entry-summary {
+        margin: 0 !important;
+    }
+
+    .panel-grid {
+        margin-right: 0 !important;
+    }
+
+    #pg-5-1, #pg-5-2, #pg-5-3, #pg-5-4, #pg-5-5, #pg-5-6, #pg-5-7, #pg-5-8, #pg-5-9, #pg-5-10,
+    #pg-5-11, #pg-7-0, #pg-7-1, #pg-7-2, #pg-7-3, #pg-7-4, #pg-7-5, #pg-7-6, #pg-7-7, #pg-7-8,
+    #pg-7-9, #pg-42-0, #pg-42-1, #pg-42-2, #pg-55-0, #pg-55-1, #pg-55-2, #pg-52-0, #pg-52-1 {
+        padding: 0 5%;
+    }
+
+    #pg-9-0, #pg-9-1, #pg-9-2, #pg-23-0, #pg-23-1, #pg-23-2, #pg-28-0, #pg-28-1, #pg-28-2,
+    #pg-30-0, #pg-30-1, #pg-30-2, #pg-254-0, #pg-254-1, #pg-254-2, #pg-36-0, #pg-36-1, #pg-36-2 {
+        padding: 0 2.0%;
+    }
+
+    .so-widget-sow-hero-default-290ab450d7d1 .sow-slider-base ul.sow-slider-images .sow-slider-image-wrapper {
+        padding: 0px;
+    }
+
+    .img_override {
+        height: 100%;
+    }
+
+    /*ALL THE SEARCH BARS*/
+    .IDX-quicksearchWrapper {
+        box-shadow: none !important;
+        -webkit-box-shadow: none !important;
+        padding: 10px;
+    }
+
+    .IDX-qsSelectInput {
+        height: 34px;
+        width: 100% !important;
+        /*padding: 6px 12px !important;*/
+        /*font-size: 14px;*/
+    }
+
+    .IDX-qsFieldWrap {
+        margin: 20px 0px;
+        height: 34px;
+        width: 100% !important;
+    }
+
+    .saddy_black_book {
+        list-style-type: none;
+    }
+
+    .IDX-showcasePrice {
+        color: #4eb1f5;
+        font-size: 36px !important;
+    }
+
+    .IDX-showcaseAddress {
+        font-size: 24px !important;
+    }
+
+    .IDX-showcaseContainer {
+        border: none !important;
+        padding: 0px;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+    }
+
+    .post-navigation, .comment-respond {
+        padding: 0% 10%;
+    }
+
+    /*STUFF IN IDX GLOBAL*/
+    #IDX-main {
+        width: 100%;
+    }
+
+    .IDX-qsInput .IDX-qsSelectInput {
+        display: block;
+        width: 100%;
+        height: 34px;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+        -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    }
+
+    #IDX-detailsAddress, #IDX-description, #IDX-resultsCount {
+        color: #ffffff;
+    }
+
+    #IDX-leadToolsBar {
+        background-color: rgba(0, 0, 0, 0);
+        -webkit-box-shadow: none;
+        background-image: none;
+        border: none;
+        text-shadow: none;
+    }
+
+    /*SEARCH RESULTS*/
+    #IDX-leadToolsBar {
+        background-color: rgba(0, 0, 0, 0);
+        -webkit-box-shadow: none;
+        background-image: none;
+        border: none;
+        text-shadow: none;
+    }
+
+    .IDX-resultsField-price {
+        margin-top: 10px;
+    }
+
+    .IDX-resultsField-price .IDX-resultsText {
+        color: #4eb1f5;
+        font-size: 36px;
+    }
+
+    .IDX-resultsField-price {
+        text-align: center;
+    }
+
+    .IDX-resultsCell {
+        width: 33%;
+        float: left;
+        clear: none;
+        padding: 10px;
+    }
+
+    .IDX-column {
+        width: 100%;
+        text-align: left;
+        min-height: 93px;
+    }
+
+    .IDX-resultsDescription {
+        padding: 10px 0px;
+    }
+
+    .IDX-perPageForm {
+        text-align: center;
+    }
+
+    .IDX-column.IDX-column4 {
+        padding-bottom: 10px;
+    }
+
+    .IDX-listingCountWrap {
+        text-align: center;
+        color: #b6b6b6;
+    }
+
+    .IDX-resultsDescription {
+        min-height: 100px;
+    }
+
+    span.IDX-resultsCount {
+        color: #ffffff;
+    }
+
+    .IDX-resultsAddress {
+        min-height: 40px;
+    }
+
+    .IDX-resultsPhotoImg {
+        max-height: 265px;
+    }
+
+    .IDX-resultsSeparatorText {
+        font-size: 32px;
+    }
+
+    div.IDX-column.IDX-column2 {
+        min-height: 124px;
+    }
+
+    .panel-row-style ul {
+        list-style-type: none;
+    }
+
+    #sow-hero-2 > div > div > div.sow-slide-nav.sow-slide-nav-next,
+    #sow-hero-2 > div > div > div.sow-slide-nav.sow-slide-nav-prev {
+        top: 75%;
+    }
+
+    #wpgmza_map_widget-2 > h2 {
+        text-align: center;
+    }
+
+    #wpgmza_map {
+        pointer-events: none;
+    }
+
+    #colophon > div.menu-footer-menu-container ul li {
+        display: inline-block;
+        padding: 3px;
+        border-right: solid 2px #939393;
+        margin: 3px 0px;
+    }
+
+    #menu-item-714 {
+        border-right: none !important;
+    }
+
+    #colophon > div.menu-footer-menu-container {
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #content {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1024px;
+
+    }
+
+    #sow-hero-2 > div > div > ul > li > video {
+        width: 100%;
+        top: 0;
+        left: 0;
+        margin-top: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    .so-widget-sow-editor .so-widget-sow-editor-base{
+        text-align: center;
+    }
+
+    .col-lg-6 {
+        width: 50%;
+        float: left;
+    }
+
+    h1.entry-title {
+        font-size: 2.5em;
+        color: #4eb1f5;
+        padding-top: 10px;
+    }
+
+    .col-lg-offset-4{
+        margin-left: 33.33333333%;
+    }
+
+    .col-lg-4{
+        width: 33.33333333%;
+    }
+
+    .col-lg-3 {
+        width: 25%;
+        float: left;
+    }
+
+    .menu ul li{
+        list-style-type: none;
+    }
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+    overflow: auto;
+}
+
+.featured-areas{
+    padding: 0px 10px;
+}
+
+.featured-items{
+    padding: 20px;
+}
+
+.poi-image{
+
+}
+
+.poi-area{
+    padding: 0px 10px;
+}
+
+#menu-points-of-interest-2{
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+.menu li{
+    list-style-type: none;
+}
+
+.genericon-facebook{
+    color: #3b5998;
+}
+
+.genericon-twitter{
+    color: #1da1f2;
+}
+
+.genericon-instagram{
+    color: #ffdc80;
+}
+
+.genericon-pinterest{
+    color: #bd081c;
+}
+
+.genericon-youtube{
+    color: #cd201f;
+}
+
+.genericon-vimeo{
+    color: #1ab7ea;
+}
+
+.genericon-googleplus{
+    color: #dd4b39;
 }
